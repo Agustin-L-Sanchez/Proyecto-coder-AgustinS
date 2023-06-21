@@ -963,12 +963,12 @@
 
     .seccionjuegosdesonic {
         display: flex;
-        overflow: hidden;
+        flex-wrap: wrap;
     }
 
     .juegossonic {
         width: 190px;
-        height: 350px;
+        height: 250px;
     }
 
     .logo-seccion-sonicfrontiers img {
