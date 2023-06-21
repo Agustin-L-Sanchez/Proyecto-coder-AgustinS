@@ -7,15 +7,18 @@
 
 
 /* ---SECCION INDEX */
-@media (min-width:408px) {
+@media (min-width:375px) {
 
+    main{background-color: rgb(9, 9, 93);}
+    
     video {
         width: 100%;
-    height: 10rem;
-    }
+    }   
+    
+    
 
 
-    .gamegearmicro {
+.gamegearmicro {
         width: 0px;
         height: 0px;
     }
@@ -59,8 +62,8 @@
         background-color: whitesmoke;
         display: flex;
         list-style-type: none;
-        padding: 5px;
-        gap: 15px;
+        padding: 4px;
+        gap: 10px;
         width: 100%;
 
 
@@ -104,6 +107,12 @@
 
     }
 
+.seccion-logos-videojuegos h2{
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+}
+
     .seccion-logos-videojuegos img {
         width: 100%;
         height: 15rem;
@@ -115,6 +124,7 @@
         display: flex;
         justify-content: center;
         margin-top: 100px;
+        color: whitesmoke;
     }
 
     .ultimasnoticiastituloindex h2 {
@@ -153,6 +163,7 @@
 
     .articulo-ultimas-noticias p {
         text-align: start;
+        color: whitesmoke;
     }
 
 
@@ -161,6 +172,7 @@
         justify-content: center;
         margin-top: 5rem;
         font-size: 1.6rem;
+        color: whitesmoke;
 
     }
 
@@ -224,6 +236,7 @@
         font-size: 1.3rem;
         text-align: center;
         margin-bottom: 2rem;
+        color: whitesmoke;
     }
 
     .articulo-ultimoslanzamientos {
@@ -286,7 +299,7 @@
 
     .banner60añosfooterindex img {
         width: 100%;
-        height: 25rem;
+        height: 26rem;
     }
 
 
@@ -389,6 +402,12 @@
 
 @media (min-width:1200px) {
 
+    .sega2022banner{
+        width: 100%;
+        height: 55rem;
+
+    }
+    
     .articuloseccionultimoslanzamientos {
         width: 100%;
     }
@@ -487,7 +506,7 @@
 
 
 /* ---SECCION SONIC EL ERIZO */
-@media (min-width: 407px) {
+@media (min-width: 375px) {
 
     body {
         background-color: rgb(2, 2, 72);
@@ -527,7 +546,7 @@
         display: flex;
         flex-direction: inline;
         align-items: center;
-        font-size: 13px;
+        font-size: 10px;
         gap: 30px;
         list-style: none;
 
