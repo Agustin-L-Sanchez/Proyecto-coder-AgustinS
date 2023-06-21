@@ -11,8 +11,9 @@
 
     video {
         width: 100%;
-
+    height: 10rem;
     }
+
 
     .gamegearmicro {
         width: 0px;
@@ -1524,15 +1525,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
