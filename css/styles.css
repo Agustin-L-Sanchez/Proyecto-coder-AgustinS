@@ -1272,6 +1272,38 @@
 
 
 /* ---SECCION PAGINA NOTICIAS--- */
+
+@media (min-width: 375px){
+
+.titulo-seccionoticas{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 @media (min-width: 1200px) {
     .titulo-seccionoticas {
         background-color: whitesmoke;
