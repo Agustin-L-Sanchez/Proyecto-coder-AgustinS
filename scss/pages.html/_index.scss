@@ -1,0 +1,241 @@
+
+@media (min-width: 375px) {
+
+.titulonuestrasfranquicias {
+  display: flex;
+  color: whitesmoke;
+  font-size: 0.8rem;
+  margin-top: 20px;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.seccion-logos-videojuegos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5px;
+  gap: 2rem;
+
+
+  h2 {
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+
+  img {
+    width: 100%;
+    height: 15rem;
+    border: solid whitesmoke 2px;
+    border-radius: 0.3rem;
+  }
+
+}
+
+
+.ultimasnoticiastituloindex {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: whitesmoke;
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+}
+
+
+.contenedorseccionultimasnoticias {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+
+
+  .articulo-ultimas-noticias {
+    width: 100%;
+    border: solid whitesmoke 1px;
+    background-color: rgba(0, 0, 0, 0.49);
+
+
+    img {
+      width: 100%;
+      height: 10rem;
+      border: solid whitesmoke 1px;
+    }
+
+
+    h3 {
+      color: white;
+      font-size: 1rem;
+      text-align: center;
+
+    }
+
+    p {
+      text-align: start;
+      color: whitesmoke;
+    }
+
+  }
+}
+
+
+.titulo-ultimos-lanzamientos {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  color: whitesmoke;
+
+}
+
+
+.logo-sonic-frontiers {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+
+  img {
+
+    height: 10rem;
+    width: 20rem;
+    margin-top: 1rem;
+
+  }
+}
+
+
+.seccion-link-compra {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+
+  .compraya-sonicfrontiers {
+    display: flex;
+    justify-content: center;
+    width: 6rem;
+    height: 4rem;
+    border: solid white 3px;
+    margin-bottom: 2rem;
+  }
+}
+
+.bannersonicfrontiers {
+  margin-bottom: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+
+.seccion-ulitmos-lanzamientos {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+
+  h2 {
+    font-size: 2rem;
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+
+  p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+  }
+
+
+  .articulo-ultimoslanzamientos {
+    border: solid whitesmoke 2px;
+    background-color: rgb(4, 2, 28)
+  }
+}
+
+video {
+  border-bottom: solid whitesmoke 2px;
+}
+
+.segainsidertitulo h2 {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  width: 100%;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+
+.Footerseccionindex {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  height: 45rem;
+  width: 100%;
+
+
+  img {
+    width: 100%;
+    height: 20rem;
+  }
+
+
+  p {
+    color: black;
+    font-size: 1.1rem;
+
+  }
+
+
+
+  .footerlink {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+
+    ul li {
+      display: inline;
+    }
+
+    img {
+      display: inline;
+      height: 2.5rem;
+      width: 2.5rem;
+      margin: 10px;
+    }
+
+  }
+
+
+  .banner60añosfooterindex img {
+    width: 100%;
+    height: 26rem;
+  }
+
+  .segalogofooterindex {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+    img {
+      height: 5rem;
+      width: 8rem;
+    }
+  }
+}
+}
+
