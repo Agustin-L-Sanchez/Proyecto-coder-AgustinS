@@ -7,6 +7,7 @@
 
 main {
   background-color: rgb(9, 9, 93);
+  padding: 10px;
 }
 
 video {
@@ -236,6 +237,119 @@ header img {
   .Footerseccionindex .segalogofooterindex img {
     height: 5rem;
     width: 8rem;
+  }
+}
+@media (min-width: 768px) {
+  .seccion-logos-videojuegos {
+    display: flex;
+    width: 100%;
+  }
+  .seccion-logos-videojuegos img {
+    height: 15rem;
+    margin-top: 2rem;
+  }
+  .seccion-logos-videojuegos h2 {
+    font-size: 0.7rem;
+  }
+  .logo-sonic-frontiers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-sonic-frontiers img {
+    display: flex;
+    width: 20rem;
+  }
+  .banner60añosfooterindex img {
+    height: 25rem;
+  }
+  .segalogofooterindex {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+  .segalogofooterindex img {
+    height: 10rem;
+    width: 20rem;
+  }
+}
+@media (min-width: 1200px) {
+  .sega2022banner {
+    width: 100%;
+    height: 55rem;
+  }
+  .articuloseccionultimoslanzamientos {
+    width: 100%;
+  }
+  .seccion-logos-videojuegos img {
+    width: 100%;
+    height: 37.4rem;
+  }
+  .contenedorseccionultimasnoticias {
+    height: 60rem;
+    width: 100%;
+  }
+  .contenedorseccionultimasnoticias .articulo-ultimas-noticias {
+    height: 40rem;
+    width: 100%;
+  }
+  .contenedorseccionultimasnoticias .articulo-ultimas-noticias .imagen-ultimas-noticias {
+    width: 100%;
+    height: 25rem;
+  }
+  .contenedorseccionultimasnoticias .articulo-ultimas-noticias h3 {
+    font-size: 1.7rem;
+    color: bisque;
+    width: 100%;
+    height: 100%;
+  }
+  .contenedorseccionultimasnoticias .articulo-ultimas-noticias p {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .Footerseccionindex {
+    display: grid;
+    width: 100%;
+    height: 60rem;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px 200px;
+  }
+  .Footerseccionindex .footerlink {
+    grid-row: 2;
+    width: 100vw;
+  }
+  .Footerseccionindex .footerlink a img {
+    height: 3rem;
+    width: 4rem;
+    margin: 4rem;
+  }
+  .derechosreservadosfooter {
+    grid-column: 1/span 4;
+    grid-row: 3;
+    width: 100vw;
+  }
+  .derechosreservadosfooter p {
+    width: 100vw;
+    font-size: 2rem;
+  }
+  .banner60añosfooterindex {
+    width: 100vw;
+    grid-column: 1/span 4;
+    grid-row: 5;
+  }
+  .banner60añosfooterindex img {
+    height: 100%;
+  }
+  .segalogofooterindex {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+  .segalogofooterindex img {
+    height: 20rem;
+    width: 30rem;
   }
 }
 
