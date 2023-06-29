@@ -24,10 +24,6 @@ video {
   height: 0px;
 }
 
-a {
-  text-decoration: none;
-}
-
 header {
   background-color: rgb(2, 2, 54);
   width: 100%;
@@ -60,7 +56,7 @@ header img {
   color: black;
   display: flex;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   width: 100%;
 }
 .seccionnavegador .paginasnavegadorindex {
@@ -73,7 +69,7 @@ header img {
   .titulonuestrasfranquicias {
     display: flex;
     color: whitesmoke;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     margin-top: 20px;
   }
   .titulonuestrasfranquicias h1 {
@@ -191,16 +187,9 @@ header img {
   video {
     border-bottom: solid whitesmoke 2px;
   }
-  .segainsidertitulo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
   .segainsidertitulo h2 {
-    display: flex;
-    justify-content: center;
     margin-top: 3rem;
-    font-size: 100%;
+    font-size: 1.3rem;
     width: 100%;
     color: whitesmoke;
     padding: 5px;
@@ -363,128 +352,5 @@ header img {
     width: 30rem;
   }
 }
-@media (min-width: 375px) {
-  .segalogoheader {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  .segalogoheader img {
-    width: 6rem;
-  }
-  .header-pagina-noticias {
-    background-color: whitesmoke;
-    width: 100%;
-  }
-  .navbar {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  .container-fluid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: whitesmoke;
-    width: 100%;
-  }
-  .container-fluid .navbar-toggler {
-    width: 3rem;
-    height: 3rem;
-    border: solid 1.5px black;
-  }
-  .container-fluid .navbar-toggler-icon {
-    width: 100%;
-    height: 100%;
-  }
-  .container-fluid .nav-item {
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-  }
-  .video-noticias {
-    width: 0%;
-    height: 0%;
-  }
-  .titulo-seccionoticas {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-  }
-  .titulo-seccionoticas h1 {
-    color: whitesmoke;
-  }
-  .seccion-noticas-contenedorpadre {
-    display: flex;
-    flex-direction: column;
-  }
-  .seccion-noticas-contenedorpadre .contenedorimagenesnoticias {
-    border: solid 2px whitesmoke;
-    margin-top: 1rem;
-  }
-  .seccion-noticas-contenedorpadre .contenedorimagenesnoticias img {
-    width: 100%;
-    height: 100%;
-  }
-  .seccion-noticas-contenedorpadre .articulos-seccionoticias {
-    display: flex;
-    justify-content: center;
-    border: solid 2px whitesmoke;
-    background-color: rgb(2, 2, 54);
-  }
-  .seccion-noticas-contenedorpadre .articulos-seccionoticias h2 {
-    display: flex;
-    text-align: center;
-    font-size: 1.7rem;
-    color: whitesmoke;
-  }
-  .seccion-noticas-contenedorpadre .articulos-seccionoticias p {
-    display: flex;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 1rem;
-  }
-}
-@media (min-width: 768px) {
-  .segalogoheader {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  .header-pagina-noticias {
-    background-color: whitesmoke;
-    width: 100%;
-  }
-  .navbar {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  .container-fluid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: whitesmoke;
-    width: 100%;
-  }
-  .container-fluid .navbar-toggler {
-    width: 3rem;
-    height: 3rem;
-    border: solid 1.5px black;
-  }
-  .container-fluid .navbar-toggler-icon {
-    width: 100%;
-    height: 100%;
-  }
-  .container-fluid .nav-item {
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-  }
-  .video-noticias {
-    width: 100%;
-    height: 100%;
-  }
-}
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */

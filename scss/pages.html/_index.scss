@@ -3,7 +3,7 @@
   .titulonuestrasfranquicias {
     display: flex;
     color: whitesmoke;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-top: 20px;
 
     h1 {
@@ -167,13 +167,33 @@
     border-bottom: solid whitesmoke 2px;
   }
 
-  .segainsidertitulo h2 {
-    margin-top: 3rem;
-    font-size: 1.3rem;
+  .segainsidertitulo {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    color: whitesmoke;
-    padding: 5px;
+    
+
+
+
+    h2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 3rem;
+      font-size: 100%;
+      width: 100%;
+      color: whitesmoke;
+      padding: 5px;
+
+    }
   }
+
+
+
+
+
+
+
+
 
 
   .Footerseccionindex {
@@ -309,7 +329,7 @@
     width: 100%;
 
     .articulo-ultimas-noticias {
-      height:40rem;
+      height: 40rem;
       width: 100%;
 
       .imagen-ultimas-noticias {
