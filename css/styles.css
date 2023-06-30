@@ -28,47 +28,107 @@ a {
   text-decoration: none;
 }
 
-header {
-  background-color: rgb(2, 2, 54);
-  width: 100%;
-  display: grid;
-  position: sticky;
-  top: 0;
+@media (min-width: 375px) {
+  header {
+    background-color: rgb(2, 2, 54);
+    width: 100%;
+    height: 15rem;
+  }
+  header .logosegaseccionheader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  header .logosegaseccionheader img {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    width: 8rem;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  header nav li {
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    height: 1.8rem;
+    align-items: center;
+  }
+  header nav a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 1rem;
+  }
+  header a:hover {
+    background-color: rgb(56, 74, 109);
+    color: whitesmoke;
+  }
 }
-header .segalogoheader {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+@media (min-width: 1020px) {
+  header {
+    background-color: rgb(2, 2, 54);
+    width: 100%;
+    height: 7rem;
+  }
+  header .logosegaseccionheader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  header .logosegaseccionheader img {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    width: 8rem;
+  }
+  header nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: whitesmoke;
+  }
+  header nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  header nav li {
+    justify-content: center;
+    display: inline;
+    list-style-type: none;
+    border: 0px solid black;
+    background-color: whitesmoke;
+    height: 2rem;
+    width: 100%;
+  }
+  header nav a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  header a:hover {
+    background-color: rgb(56, 74, 109);
+    color: whitesmoke;
+  }
 }
-header img {
-  width: 10rem;
-}
-
-.seccionnavegador {
-  display: flex;
-  width: 100%;
-}
-.seccionnavegador ul {
-  background-color: whitesmoke;
-  display: flex;
-  list-style-type: none;
-  padding: 4px;
-  gap: 10px;
-  width: 100%;
-}
-.seccionnavegador a {
-  color: black;
-  display: flex;
-  justify-content: center;
-  font-size: 0.7rem;
-  width: 100%;
-}
-.seccionnavegador .paginasnavegadorindex {
-  display: inline;
-  font-size: 15px;
-  width: 100%;
-}
-
 @media (min-width: 375px) {
   .titulonuestrasfranquicias {
     display: flex;
@@ -164,6 +224,7 @@ header img {
   .bannersonicfrontiers {
     margin-bottom: 2rem;
     width: 100%;
+    height: 5rem;
     margin-top: 2rem;
   }
   .seccion-ulitmos-lanzamientos {
@@ -434,9 +495,11 @@ header img {
   }
   .seccion-noticas-contenedorpadre .articulos-seccionoticias h2 {
     display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 1.7rem;
     color: whitesmoke;
+    width: 100%;
   }
   .seccion-noticas-contenedorpadre .articulos-seccionoticias p {
     display: flex;
@@ -484,6 +547,531 @@ header img {
   .video-noticias {
     width: 100%;
     height: 100%;
+  }
+}
+@media (min-width: 1020px) {
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+  }
+  .nav-item .nav-link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1rem;
+    border: solid black 1px;
+  }
+}
+@media (min-width: 1200px) {
+  .video-noticias {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 10rem;
+  }
+  .contenedorimagenesnoticias {
+    height: 100%;
+    width: 100%;
+  }
+  .contenedorimagenesnoticias .imagenesdenoticias {
+    height: 100%;
+    width: 100%;
+  }
+  .seccion-noticas-contenedorpadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 10rem;
+  }
+  .seccion-noticas-contenedorpadre .articulos-seccionoticias {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .seccion-noticas-contenedorpadre .articulos-seccionoticias p {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 375px) {
+  .segashopbanner {
+    width: 100%;
+  }
+  .segashopbanner img {
+    width: 100%;
+    height: 10rem;
+    filter: drop-shadow(3px 3px 3px);
+  }
+  .titulomercanciafavorita {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .titulomercanciafavorita h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .seccionmercanciafavorita {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 1rem;
+  }
+  .seccionmercanciafavorita img {
+    border: solid 2px whitesmoke;
+    background-color: rgba(95, 158, 160, 0.383);
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(3px 5px 5px);
+  }
+  .contenedortarjetasmercha {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedortarjetasmercha img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 12rem;
+    border: 1px solid whitesmoke;
+  }
+  .contenedortarjetasmercha button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    background-color: bisque;
+    border: solid black 3px;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1.1rem;
+  }
+  .tituloh2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .tituloh2 h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    text-align: center;
+  }
+  .contenedordetarjetaslomasvendido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px 180px 180px 180px 180px;
+    gap: 4rem;
+  }
+  .contenedordetarjetaslomasvendido img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+  }
+  .contenedordetarjetaslomasvendido button {
+    width: 100%;
+    background-color: bisque;
+  }
+  .contenedordetarjetaslomasvendido h3 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 0.8rem;
+  }
+  .slider-frame {
+    width: 100%;
+    height: 100%;
+    margin: 10px auto 0;
+    overflow: hidden;
+  }
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+  }
+  .slider-frame li {
+    list-style-type: none;
+    width: 100%;
+  }
+  .slider-frame img {
+    width: 100%;
+    height: 80%;
+  }
+  @keyframes slide {
+    0% {
+      margin-left: 0%;
+    }
+    20% {
+      margin-left: 0%;
+    }
+    25% {
+      margin-left: -100%;
+    }
+    45% {
+      margin-left: -100%;
+    }
+    50% {
+      margin-left: -200%;
+    }
+    70% {
+      margin-left: -200%;
+    }
+    75% {
+      margin-left: -300%;
+    }
+    95% {
+      margin-left: -300%;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .titulomercanciafavorita {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .titulomercanciafavorita h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .seccionmercanciafavorita {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 1rem;
+  }
+  .seccionmercanciafavorita img {
+    border: solid 2px whitesmoke;
+    background-color: rgba(95, 158, 160, 0.383);
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(3px 5px 5px);
+  }
+  .contenedortarjetasmercha {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedortarjetasmercha img {
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 12rem;
+    border: 1px solid whitesmoke;
+  }
+  .contenedortarjetasmercha button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    background-color: bisque;
+    border: solid black 3px;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1.1rem;
+  }
+  .tituloh2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .tituloh2 h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    text-align: center;
+  }
+  .contenedordetarjetaslomasvendido {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    gap: 4rem;
+    width: 100%;
+  }
+  .contenedordetarjetaslomasvendido img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+  }
+  .contenedordetarjetaslomasvendido button {
+    width: 100%;
+    background-color: bisque;
+  }
+  .contenedordetarjetaslomasvendido h3 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 0.8rem;
+  }
+  .slider-frame {
+    width: 100%;
+    height: 100%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    border: 5px solid gainsboro;
+  }
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+  }
+  .slider-frame li {
+    list-style-type: none;
+    width: 100%;
+  }
+  .slider-frame img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 1020px) {
+  .titulomercanciafavorita {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .titulomercanciafavorita h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .seccionmercanciafavorita {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 1rem;
+  }
+  .seccionmercanciafavorita img {
+    border: solid 2px whitesmoke;
+    background-color: rgba(95, 158, 160, 0.383);
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(3px 5px 5px);
+  }
+  .contenedortarjetasmercha {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedortarjetasmercha img {
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 12rem;
+    border: 1px solid whitesmoke;
+  }
+  .contenedortarjetasmercha button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    background-color: bisque;
+    border: solid black 3px;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1.1rem;
+  }
+  .tituloh2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .tituloh2 h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    text-align: center;
+  }
+  .contenedordetarjetaslomasvendido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px 350px 350px 350px;
+    gap: 6rem;
+    width: 100%;
+  }
+  .contenedordetarjetaslomasvendido img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+  }
+  .contenedordetarjetaslomasvendido button {
+    width: 100%;
+    background-color: bisque;
+    font-size: 2rem;
+  }
+  .contenedordetarjetaslomasvendido h3 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  .slider-frame {
+    width: 100%;
+    height: 100%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    border: 5px solid gainsboro;
+  }
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+  }
+  .slider-frame li {
+    list-style-type: none;
+    width: 100%;
+  }
+  .slider-frame img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .titulomercanciafavorita {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .titulomercanciafavorita h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .seccionmercanciafavorita {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 3rem;
+    width: 100%;
+  }
+  .seccionmercanciafavorita img {
+    border: solid 2px whitesmoke;
+    background-color: rgba(95, 158, 160, 0.383);
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(5px 5px 5px);
+  }
+  .contenedortarjetasmercha {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedortarjetasmercha img {
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 12rem;
+    border: 1px solid whitesmoke;
+  }
+  .contenedortarjetasmercha button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    background-color: bisque;
+    border: solid black 3px;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1.1rem;
+  }
+  .tituloh2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .tituloh2 h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    text-align: center;
+  }
+  .contenedordetarjetaslomasvendido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px 350px 350px;
+    gap: 6rem;
+    width: 100%;
+  }
+  .contenedordetarjetaslomasvendido img {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+  }
+  .contenedordetarjetaslomasvendido button {
+    width: 100%;
+    background-color: bisque;
+    font-size: 2rem;
+  }
+  .contenedordetarjetaslomasvendido h3 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .slider-frame {
+    width: 100%;
+    height: 100%;
+    margin: 0% auto 0;
+    overflow: hidden;
+    border: transparent;
+  }
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+  }
+  .slider-frame li {
+    list-style-type: none;
+    width: 100%;
+  }
+  .slider-frame img {
+    width: 100%;
+    height: 80%;
+    border: solid 5px ghostwhite;
   }
 }
 

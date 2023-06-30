@@ -1,0 +1,725 @@
+@media (min-width: 375px) {
+
+
+    .segashopbanner {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 10rem;
+            filter: drop-shadow(3px 3px 3px);
+        }
+
+    }
+
+
+
+
+    .titulomercanciafavorita {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            color: whitesmoke;
+            font-size: 1.5rem;
+            margin-top: 5rem;
+            text-align: center;
+        }
+    }
+
+
+
+
+    .seccionmercanciafavorita {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        gap: 1rem;
+
+
+
+        img {
+            border: solid 2px whitesmoke;
+            background-color: rgba(95, 158, 160, 0.383);
+            height: 100%;
+            width: 100%;
+            filter: drop-shadow(3px 5px 5px);
+        }
+    }
+
+
+    .contenedortarjetasmercha {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+
+        img {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 12rem;
+            border: 1px solid whitesmoke;
+
+        }
+
+        button {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            background-color: bisque;
+            border: solid black 3px;
+            border-radius: 10px;
+            height: 2rem;
+            font-size: 1.1rem;
+        }
+
+    }
+
+    .tituloh2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        h2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-top: 10rem;
+            margin-bottom: 1rem;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+    }
+
+    .contenedordetarjetaslomasvendido {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 180px 180px 180px 180px 180px;
+        gap: 4rem;
+
+
+
+        img {
+            width: 100%;
+            height: 100%;
+            border: 2px solid white;
+        }
+
+        button {
+            width: 100%;
+            background-color: bisque;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            color: whitesmoke;
+            font-size: 0.8rem;
+        }
+
+
+
+    }
+
+
+    .slider-frame {
+        width: 100%;
+        height: 100%;
+        margin: 10px auto 0;
+        overflow: hidden;
+
+
+
+        ul {
+            display: flex;
+            padding: 0;
+            width: 400%;
+            animation: slide 16s infinite alternate ease-in-out;
+        }
+
+        li {
+            list-style-type: none;
+            width: 100%;
+
+        }
+
+        img {
+            width: 100%;
+            height: 80%;
+
+        }
+
+
+        @keyframes slide {
+            0% {
+                margin-left: 0%;
+            }
+
+            20% {
+                margin-left: 0%;
+            }
+
+            25% {
+                margin-left: -100%;
+            }
+
+            45% {
+                margin-left: -100%;
+            }
+
+            50% {
+                margin-left: -200%;
+            }
+
+            70% {
+                margin-left: -200%;
+            }
+
+            75% {
+                margin-left: -300%;
+            }
+
+            95% {
+                margin-left: -300%;
+            }
+
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 768px) {
+
+
+
+
+
+    .titulomercanciafavorita {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            color: whitesmoke;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+
+
+
+
+    .seccionmercanciafavorita {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        gap: 1rem;
+
+
+
+        img {
+            border: solid 2px whitesmoke;
+            background-color: rgba(95, 158, 160, 0.383);
+            height: 100%;
+            width: 100%;
+            filter: drop-shadow(3px 5px 5px);
+        }
+    }
+
+
+    .contenedortarjetasmercha {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        img {
+            display: flex;
+            justify-content: center;
+            width: 30rem;
+            height: 12rem;
+            border: 1px solid whitesmoke;
+
+
+        }
+
+        button {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            background-color: bisque;
+            border: solid black 3px;
+            border-radius: 10px;
+            height: 2rem;
+            font-size: 1.1rem;
+        }
+
+    }
+
+    .tituloh2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        h2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-top: 10rem;
+            margin-bottom: 1rem;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+    }
+
+    .contenedordetarjetaslomasvendido {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 150px 150px 150px 150px 150px;
+        gap: 4rem;
+        width: 100%;
+
+
+
+        img {
+
+            width: 100%;
+            height: 100%;
+            border: 2px solid white;
+        }
+
+        button {
+            width: 100%;
+            background-color: bisque;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            color: whitesmoke;
+            font-size: 0.8rem;
+        }
+
+
+
+    }
+
+
+
+    .slider-frame {
+        width: 100%;
+        height: 100%;
+        margin: 50px auto 0;
+        overflow: hidden;
+        border: 5px solid gainsboro;
+
+
+
+        ul {
+            display: flex;
+            padding: 0;
+            width: 400%;
+            animation: slide 16s infinite alternate ease-in-out;
+        }
+
+        li {
+            list-style-type: none;
+            width: 100%;
+
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+
+
+
+
+    }
+}
+
+@media (min-width: 1020px) {
+
+    .titulomercanciafavorita {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            color: whitesmoke;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+
+
+
+
+    .seccionmercanciafavorita {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 200px 200px;
+        gap: 1rem;
+
+
+
+        img {
+            border: solid 2px whitesmoke;
+            background-color: rgba(95, 158, 160, 0.383);
+            height: 100%;
+            width: 100%;
+            filter: drop-shadow(3px 5px 5px);
+        }
+    }
+
+
+    .contenedortarjetasmercha {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        img {
+            display: flex;
+            justify-content: center;
+            width: 30rem;
+            height: 12rem;
+            border: 1px solid whitesmoke;
+
+
+        }
+
+        button {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            background-color: bisque;
+            border: solid black 3px;
+            border-radius: 10px;
+            height: 2rem;
+            font-size: 1.1rem;
+        }
+
+    }
+
+    .tituloh2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        h2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-top: 10rem;
+            margin-bottom: 1rem;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+    }
+
+    .contenedordetarjetaslomasvendido {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 350px 350px 350px 350px 350px;
+        gap: 6rem;
+        width: 100%;
+
+
+
+        img {
+
+            width: 100%;
+            height: 100%;
+            border: 2px solid white;
+        }
+
+        button {
+            width: 100%;
+            background-color: bisque;
+            font-size: 2rem;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            color: whitesmoke;
+            font-size: 1.5rem;
+        }
+
+
+
+    }
+
+
+
+    .slider-frame {
+        width: 100%;
+        height: 100%;
+        margin: 50px auto 0;
+        overflow: hidden;
+        border: 5px solid gainsboro;
+
+
+
+        ul {
+            display: flex;
+            padding: 0;
+            width: 400%;
+            animation: slide 16s infinite alternate ease-in-out;
+        }
+
+        li {
+            list-style-type: none;
+            width: 100%;
+
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1400px) {
+    .titulomercanciafavorita {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            color: whitesmoke;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+    }
+
+
+
+
+
+    .seccionmercanciafavorita {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 200px 200px 200px;
+        gap: 3rem;
+        width: 100%;
+      
+
+
+
+        img {
+            border: solid 2px whitesmoke;
+            background-color: rgba(95, 158, 160, 0.383);
+            height: 100%;
+            width: 100%;
+            filter: drop-shadow(5px 5px 5px);
+        }
+    }
+
+
+    .contenedortarjetasmercha {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        img {
+            display: flex;
+            justify-content: center;
+            width: 30rem;
+            height: 12rem;
+            border: 1px solid whitesmoke;
+
+
+        }
+
+        button {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            background-color: bisque;
+            border: solid black 3px;
+            border-radius: 10px;
+            height: 2rem;
+            font-size: 1.1rem;
+        }
+
+    }
+
+    .tituloh2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        h2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-top: 10rem;
+            margin-bottom: 1rem;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+    }
+
+    .contenedordetarjetaslomasvendido {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 350px 350px 350px 350px;
+        gap: 6rem;
+        width: 100%;
+        
+
+
+
+        img {
+            display: flex;
+            align-content: center;
+            width: 100%;
+            height: 100%;
+            border: 2px solid white;
+            
+        }
+
+        button {
+            width: 100%;
+            background-color: bisque;
+            font-size: 2rem;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            color: whitesmoke;
+            font-size: 1.5rem;
+            width: 100%;
+        }
+
+
+
+    }
+
+
+
+    .slider-frame {
+        width: 100%;
+        height: 100%;
+        margin: 0% auto 0;
+        overflow: hidden;
+        border: transparent;
+        
+
+
+
+        ul {
+            display: flex;
+            padding: 0;
+            width: 400%;
+            animation: slide 16s infinite alternate ease-in-out;
+        }
+
+        li {
+            list-style-type: none;
+            width: 100%;
+
+        }
+
+        img {
+            width: 100%;
+            height: 80%;
+            border: solid 5px ghostwhite;
+            
+
+        }
+    }
+}
