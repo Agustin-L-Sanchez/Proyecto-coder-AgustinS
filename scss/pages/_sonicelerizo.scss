@@ -1,0 +1,687 @@
+@media (min-width: 375px) {
+
+
+
+    .seccion-banner {
+        background-image: url(../imagenes/sonicsuperstars.jpg.webp);
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 1rem;
+        border: 3px solid whitesmoke;
+        border-radius: 0.5rem;
+
+
+        .contenedor-logo {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+
+
+        .logo-sonic-banner {
+            width: 15rem;
+            height: 10rem;
+        }
+    }
+
+    .titulo-videojuego {
+        background-color: transparent;
+        justify-content: center;
+        color: aquamarine;
+        display: flex;
+
+
+        h2 {
+            height: 50px;
+            font-size: 2.5rem;
+            margin-top: 50px;
+            margin-bottom: 1rem;
+
+        }
+    }
+
+
+    .contenedor-seccion-juegos {
+        display: grid;
+        background-color: transparent;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        padding: 0.5rem;
+        gap: 0.5rem;
+
+        .juegossonic {
+
+            height: 80%;
+            width: 100%;
+            border: 2px solid whitesmoke;
+            border-radius: 2px;
+
+
+        }
+
+        h2 {
+            font-size: 15px;
+            text-align: center;
+            color: whitesmoke;
+        }
+
+    }
+
+
+    .bannersuelto {
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+
+
+
+    .titulo-juegos-disponibles {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+        h2 {
+            width: 100%;
+            font-size: 3rem;
+            color: aquamarine;
+            margin-bottom: rem;
+            text-align: center;
+
+        }
+
+    }
+
+
+    .seccion-sonic-frontiers {
+
+
+
+        .bannerseccionfrontiers {
+            width: 100%;
+        }
+
+
+        .logo-seccion-sonicfrontiers {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 10rem;
+
+            img {
+                height: 100%;
+                width: 20rem;
+                background-color: transparent;
+                margin-top: 50px;
+                border-top: solid whitesmoke 1px;
+
+            }
+
+            a {
+                display: flex;
+                justify-content: center;
+                color: black;
+                background-color: white;
+                margin-left: 130px;
+                margin-right: 130px;
+                margin-top: 20px;
+            }
+        }
+
+
+        .compraahorasonicfrontiers {
+            border: solid aquamarine 1px;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            background-color: whitesmoke;
+            height: 30px;
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+
+        }
+
+
+        .titulosonicnoticiasrecientes {
+            margin-top: 50px;
+            font-size: 25px;
+            color: whitesmoke;
+            text-align: center;
+
+
+        }
+
+
+        .Sonicseccionultimasnoticias {
+            display: flex;
+            height: 400px;
+            background-color: rgb(10, 10, 50);
+
+            .articulo-sonic-noticas {
+                display: grid;
+                background-color: rgba(0, 0, 0, 0.467);
+                width: 500px;
+                height: 100%;
+                justify-content: center;
+                margin-left: 5px;
+                margin-right: 5px;
+                border: solid aquamarine 1px;
+            }
+
+
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: grid;
+                border-bottom: solid aquamarine 1px;
+
+            }
+
+
+
+            h3,
+            h4,
+            p {
+                font-size: 15px;
+                align-items: center;
+                display: grid;
+                color: whitesmoke;
+                text-align: center;
+
+            }
+        }
+
+
+        .introduccioninformacionsonicfrontiers {
+            width: 100%;
+
+            h2 {
+                font-size: 50px;
+                margin-top: 50px;
+                color: aquamarine;
+                text-align: center;
+                width: 100%;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+                text-align: center;
+                color: whitesmoke;
+                margin-top: 10px;
+                padding: 1rem;
+            }
+
+        }
+
+
+        .contenedorvideossonicfrontiers {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.467);
+
+            video {
+                width: 100%;
+                margin-top: 10px;
+                height: 100%;
+                border: solid aquamarine 1px;
+
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                color: aquamarine;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 1.1rem;
+                text-align: center;
+                padding: 1px;
+                color: whitesmoke;
+            }
+
+        }
+
+        .bannerseccionfrontiers {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: solid aquamarine 1px;
+        }
+
+
+
+
+        .comprasonicfrontiers {
+
+            h2 {
+                font-size: 2.5rem;
+                text-align: center;
+                color: aquamarine;
+                margin-top: 50px;
+            }
+        }
+
+
+        .seleccionarplataforma {
+
+            h4 {
+                color: whitesmoke;
+                margin-top: 50px;
+                margin-bottom: 10px;
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+
+
+        .contenedorseleccionplataforma {
+            display: grid;
+            width: 100%;
+            justify-content: center;
+
+
+            .plataformaseleccionada {
+                display: grid;
+                margin: 10px;
+                border: solid goldenrod 5px;
+                justify-content: center;
+                background-color: whitesmoke;
+                width: 150px;
+                height: 30px;
+                align-items: center;
+
+            }
+        }
+
+    }
+
+
+    .edicionessonicfronitiers {
+        width: 100%;
+        height: 20rem;
+        border: 3px solid aquamarine;
+
+        img {
+            width: 100%;
+            height: 100%;
+            padding: 5px;
+
+        }
+    }
+
+
+    .sonicfrontiersedicion {
+        display: flex;
+        color: whitesmoke;
+        justify-content: center;
+        flex-direction: column;
+        text-align: start;
+        padding: 25px;
+        font-size: 1.2rem;
+        border: solid aquamarine 1px;
+        margin-top: 10px;
+        background-color: black;
+        width: 100%;
+
+
+        h3 {
+            text-align: center;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+        }
+    }
+
+    .sonicteambanner {
+        width: 100%;
+        height: 70px;
+        margin-top: 30px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .imagendefondosonic {
+        display: flex;
+        background-image: url(../imagenes/sonicsuperstars.jpg.webp);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .titulovideojuegos h2 {
+        font-size: 30px;
+
+    }
+
+    .seccionjuegosdesonic {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .juegossonic {
+        width: 190px;
+        height: 250px;
+    }
+
+    .logo-seccion-sonicfrontiers img {
+        width: 100%;
+        height: 150px;
+        background-color: transparent;
+        justify-content: center;
+    }
+
+
+    .logo-seccion-sonicfrontiers {
+        display: grid;
+        justify-content: center;
+        height: 12rem;
+
+    }
+
+    .seccionvideosonicfrontiers p {
+        width: 100%;
+    }
+
+    .sonicfrontiersedicion {
+        width: 100%;
+    }
+
+    .edicionessonicfronitiers img {
+        width: 100%;
+    }
+
+    .contenedorseleccionplataforma {
+        background-image: url(../imagenes/sonicrender.jpg.png);
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: 100% 100%;
+        height: 400px;
+
+    }
+
+
+    .bannerseccionfrontiers {
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+
+
+    .imagendefondosonic {
+        width: 100%;
+    }
+
+    .titulovideojuegos {
+        width: 100%;
+    }
+
+
+    .seccionjuegossonic {
+        width: 100%;
+    }
+
+
+
+    .juegossonic {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+
+    .bannerseccionfrontiers {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .logo-seccion-sonicfrontiers {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        height: 800px;
+        background-image: url(../imagenes/FWZfZ7aXwAEhB77.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 50%;
+    }
+
+    .logo-seccion-sonicfrontiers img {
+        display: flex;
+        width: 40rem;
+        height: 20rem;
+    }
+
+    .compraahorasonicfrontiers {
+        width: 100%;
+        display: flex;
+        font-size: 2.5rem;
+        background-color: whitesmoke;
+    }
+
+
+    .titulosonicnoticiasrecientes {
+        width: 100%;
+    }
+
+    .Sonicseccionultimasnoticias {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 500px
+    }
+
+    .introduccioninformacionsonicfrontiers {
+        width: 100%;
+    }
+
+    .introduccioninformacionsonicfrontiers h2 {
+        font-size: 90px;
+        width: 100%;
+    }
+
+    .introduccioninformacionsonicfrontiers h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .seccionvideosonicfrontiers {
+        width: 100%;
+        display: grid;
+    }
+
+    .seccionvideosonicfrontiers video {
+        height: 100%;
+        width: 100%;
+        border: none;
+        margin-right: 200px;
+    }
+
+    .seccionvideosonicfrontiers h3 {
+        font-size: 50px;
+        width: 100%;
+    }
+
+
+    .seccionvideosonicfrontiers p {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contenedorseleccionplataforma {
+        background-image: none;
+        width: 100%;
+    }
+
+
+    .plataformaseleccionada {
+        width: 100%;
+
+    }
+
+    .edicionessonicfronitiers {
+        display: flex;
+        width: 100%;
+        height: 700px;
+        justify-content: center;
+    }
+
+    .edicionessonicfronitiers img {
+        width: 100%;
+        height: auto;
+    }
+
+    .seccionedicionesdesonicfrontiers {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sonicfrontiersedicion {
+        display: flex;
+        width: 100%;
+        height: 500px;
+    }
+
+    .sonicfrontiersedicion h3 {
+        font-size: 3rem;
+        color: aquamarine;
+    }
+
+    .sonicfrontiersedicion ul li {
+        display: flex;
+    }
+
+    .sonicteambanner {
+        width: 100%;
+        height: 150px;
+    }
+
+
+
+
+}
