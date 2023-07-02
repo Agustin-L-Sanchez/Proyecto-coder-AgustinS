@@ -1,0 +1,97 @@
+
+@media (min-width:375px){
+
+footer{
+
+    .Footerseccionindex {
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        height: 45rem;
+        width: 100%;
+    
+    
+        .segalo {
+          width: 100%;
+          height: 30rem;
+        }
+    
+    
+        p {
+          color: black;
+          font-size: 1.1rem;
+    
+        }
+    
+    
+    
+        .footerlink {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          margin-bottom: 2rem;
+          margin-top: 2rem;
+    
+    
+          ul li {
+            display: inline;
+          }
+    
+          img {
+            display: inline;
+            height: 2.5rem;
+            width: 2.5rem;
+            margin: 10px;
+          }
+    
+        }
+    
+    
+        .banner60añosfooterindex img {
+          width: 100%;
+          height: 26rem;
+        }
+    
+        .segalogofooterindex {
+          display: flex;
+          justify-content: center;
+          width: 100vw;
+    
+          img {
+            height: 5rem;
+            width: 8rem;
+          }
+        }
+      }
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
