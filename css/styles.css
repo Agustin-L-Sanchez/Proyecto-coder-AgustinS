@@ -917,6 +917,45 @@ a {
     margin-top: 30px;
   }
 }
+
+
+
+
+
+
+/* ---SECCION PAGINA NOTICIAS--- */
+
+@media (min-width: 375px){
+
+.titulo-seccionoticas{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 @media (min-width: 1200px) {
   .seccion-banner {
     background-image: url(../imagenes/sonicsuperstars.jpg.webp);
@@ -1177,6 +1216,7 @@ a {
     margin-top: 30px;
   }
 }
+
 @media (min-width: 375px) {
   .segalogoheader {
     display: flex;
