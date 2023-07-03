@@ -26,7 +26,8 @@ video {
 
 a {
   text-decoration: none;
-  color: black;
+  color: transparent;
+  text-decoration: none;
 }
 
 @media (min-width: 375px) {
@@ -142,22 +143,75 @@ a {
     justify-content: center;
     width: 100%;
   }
-  .seccion-logos-videojuegos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 5px;
-    gap: 2rem;
-  }
-  .seccion-logos-videojuegos h2 {
-    color: whitesmoke;
-    font-size: 1rem;
-    text-align: center;
-  }
-  .seccion-logos-videojuegos img {
+  .contenedor-tarjetas-juegos {
+    height: 60rem;
     width: 100%;
-    height: 15rem;
-    border: solid whitesmoke 1px;
-    border-radius: 0.3rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  .contenedor-tarjetas-juegos .tarjeta-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 10px;
+    width: 90px;
+    margin: 30px;
+    transition: 300ms;
+  }
+  .contenedor-tarjetas-juegos .tarjeta-index:hover .personajes {
+    background-color: #E0FFFF;
+    height: 20rem;
+  }
+  .contenedor-tarjetas-juegos .tarjeta-index:hover .imagen-personaje {
+    transform: translatey(-30px);
+    transition: 300ms;
+  }
+  .contenedor-tarjetas-juegos .personajes {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: #0f3859;
+    transition: 300ms;
+    position: absolute;
+    border: 1px whitesmoke solid;
+  }
+  .contenedor-tarjetas-juegos .imagen-personaje {
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    width: 100%;
+    background-image: url();
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: 300ms;
+    filter: drop-shadow(5px 5px 5px);
+  }
+  .contenedor-tarjetas-juegos .imagen-personaje img {
+    height: 100%;
+    height: 100%;
+  }
+  .contenedor-tarjetas-juegos .logo-tarjeta {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    background-image: linear-gradient(#0c2338, rgb(41, 31, 87));
+    margin-top: 150px;
+    transition: 300ms;
+    border-radius: 10%;
+    filter: drop-shadow(3px 3px 3px);
+  }
+  .contenedor-tarjetas-juegos .logo-tarjeta img {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
   }
   .ultimasnoticiastituloindex {
     display: flex;
@@ -170,26 +224,29 @@ a {
   }
   .contenedorseccionultimasnoticias {
     display: flex;
-    gap: 5px;
-    padding: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
   }
   .contenedorseccionultimasnoticias .articulo-ultimas-noticias {
     width: 100%;
     border: solid whitesmoke 1px;
-    background-color: rgba(0, 0, 0, 0.49);
+    background-color: #0c2338;
   }
   .contenedorseccionultimasnoticias .articulo-ultimas-noticias img {
     width: 100%;
-    height: 10rem;
+    height: 100%;
     border: solid whitesmoke 1px;
   }
   .contenedorseccionultimasnoticias .articulo-ultimas-noticias h3 {
     color: white;
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-align: center;
   }
   .contenedorseccionultimasnoticias .articulo-ultimas-noticias p {
-    text-align: start;
+    font-size: 1.1rem;
+    text-align: center;
     color: whitesmoke;
   }
   .titulo-ultimos-lanzamientos {
@@ -269,16 +326,198 @@ a {
   }
 }
 @media (min-width: 768px) {
-  .seccion-logos-videojuegos {
+  .titulonuestrasfranquicias {
     display: flex;
+    color: whitesmoke;
+    font-size: 0.7rem;
+    margin-top: 20px;
+  }
+  .titulonuestrasfranquicias h1 {
+    display: flex;
+    justify-content: center;
     width: 100%;
   }
-  .seccion-logos-videojuegos img {
-    height: 15rem;
+  .contenedor-tarjetas-juegos {
+    height: 100rem;
+    width: 100%;
+    display: flex;
+    gap: rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+  }
+  .contenedor-tarjetas-juegos .tarjeta-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 300px;
+    margin: 10px;
+    transition: 300ms;
+  }
+  .contenedor-tarjetas-juegos .tarjeta-index:hover .personajes {
+    background-color: #E0FFFF;
+    height: 20rem;
+  }
+  .contenedor-tarjetas-juegos .tarjeta-index:hover .imagen-personaje {
+    transform: translatey(-30px);
+    transition: 300ms;
+  }
+  .contenedor-tarjetas-juegos .personajes {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: #0f3859;
+    transition: 300ms;
+    position: absolute;
+    border: 1px whitesmoke solid;
+  }
+  .contenedor-tarjetas-juegos .imagen-personaje {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-image: url();
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px 5px 5px);
+  }
+  .contenedor-tarjetas-juegos .imagen-personaje img {
+    height: 100%;
+    height: 100%;
+  }
+  .contenedor-tarjetas-juegos .logo-tarjeta {
+    height: 180px;
+    width: 300px;
+    position: absolute;
+    background-image: linear-gradient(#0c2338, rgb(41, 31, 87));
+    margin-top: 150px;
+    transition: 300ms;
+    border-radius: 10%;
+    filter: drop-shadow(3px 3px 3px);
+  }
+  .contenedor-tarjetas-juegos .logo-tarjeta img {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+  }
+  .ultimasnoticiastituloindex {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: whitesmoke;
+  }
+  .ultimasnoticiastituloindex h2 {
+    font-size: 1.6rem;
+  }
+  .contenedorseccionultimasnoticias {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70rem;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .contenedorseccionultimasnoticias .articulo-ultimas-noticias {
+    height: 30rem;
+    width: 100%;
+    border: solid whitesmoke 1px;
+    background-color: #0c2338;
+  }
+  .contenedorseccionultimasnoticias .articulo-ultimas-noticias img {
+    width: 100%;
+    height: 20rem;
+    border: solid whitesmoke 1px;
+  }
+  .contenedorseccionultimasnoticias .articulo-ultimas-noticias h3 {
+    color: white;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .contenedorseccionultimasnoticias .articulo-ultimas-noticias p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: whitesmoke;
+  }
+  .titulo-ultimos-lanzamientos {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    color: whitesmoke;
+  }
+  .logo-sonic-frontiers {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo-sonic-frontiers img {
+    height: 10rem;
+    width: 20rem;
+    margin-top: 1rem;
+  }
+  .seccion-link-compra {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .seccion-link-compra .compraya-sonicfrontiers {
+    display: flex;
+    justify-content: center;
+    width: 6rem;
+    height: 4rem;
+    border: solid white 3px;
+    margin-bottom: 2rem;
+  }
+  .bannersonicfrontiers {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 5rem;
     margin-top: 2rem;
   }
-  .seccion-logos-videojuegos h2 {
-    font-size: 0.7rem;
+  .seccion-ulitmos-lanzamientos {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .seccion-ulitmos-lanzamientos h2 {
+    font-size: 2rem;
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  .seccion-ulitmos-lanzamientos p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+  }
+  .seccion-ulitmos-lanzamientos .articulo-ultimoslanzamientos {
+    border: solid whitesmoke 2px;
+    background-color: rgb(4, 2, 28);
+  }
+  video {
+    border-bottom: solid whitesmoke 2px;
+  }
+  .segainsidertitulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .segainsidertitulo h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 100%;
+    width: 100%;
+    color: whitesmoke;
+    padding: 5px;
   }
   .logo-sonic-frontiers {
     width: 100%;
@@ -307,24 +546,91 @@ a {
     width: 100%;
     height: 55rem;
   }
-  .articuloseccionultimoslanzamientos {
+  .contenedor-tarjetas-juegos {
+    height: 80rem;
     width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
   }
-  .seccion-logos-videojuegos img {
+  .contenedor-tarjetas-juegos .tarjeta-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    margin: 30px;
+    transition: 300ms;
+  }
+  .contenedor-tarjetas-juegos .tarjeta-index:hover .personajes {
+    background-color: #E0FFFF;
+    height: 20rem;
+  }
+  .contenedor-tarjetas-juegos .tarjeta-index:hover .imagen-personaje {
+    transform: translatey(-30px);
+    transition: 300ms;
+  }
+  .contenedor-tarjetas-juegos .personajes {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: #0f3859;
+    transition: 300ms;
+    position: absolute;
+    border: 1px whitesmoke solid;
+  }
+  .contenedor-tarjetas-juegos .imagen-personaje {
+    display: flex;
+    justify-content: center;
+    height: 270px;
     width: 100%;
-    height: 37.4rem;
+    background-image: url();
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px 5px 5px);
+  }
+  .contenedor-tarjetas-juegos .imagen-personaje img {
+    height: 100%;
+    height: 100%;
+  }
+  .contenedor-tarjetas-juegos .logo-tarjeta {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    background-image: linear-gradient(#0c2338, rgb(41, 31, 87));
+    margin-top: 150px;
+    transition: 300ms;
+    border-radius: 10%;
+    filter: drop-shadow(3px 3px 3px);
+  }
+  .contenedor-tarjetas-juegos .logo-tarjeta img {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
   }
   .contenedorseccionultimasnoticias {
-    height: 60rem;
+    height: 80rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
   .contenedorseccionultimasnoticias .articulo-ultimas-noticias {
-    height: 40rem;
-    width: 100%;
+    display: flex;
+    height: 35rem;
+    width: 40rem;
+    align-items: center;
   }
   .contenedorseccionultimasnoticias .articulo-ultimas-noticias .imagen-ultimas-noticias {
     width: 100%;
-    height: 25rem;
+    height: 100%;
   }
   .contenedorseccionultimasnoticias .articulo-ultimas-noticias h3 {
     font-size: 1.7rem;
@@ -338,47 +644,8 @@ a {
     width: 100%;
     height: 100%;
   }
-  .Footerseccionindex {
-    display: grid;
-    width: 100%;
-    height: 60rem;
-    grid-template-columns: 300px 300px 300px 300px 300px;
-    grid-template-rows: 200px 200px 200px 200px;
-  }
-  .Footerseccionindex .footerlink {
-    grid-row: 2;
-    width: 100vw;
-  }
-  .Footerseccionindex .footerlink a img {
-    height: 3rem;
-    width: 4rem;
-    margin: 4rem;
-  }
-  .derechosreservadosfooter {
-    grid-column: 1/span 4;
-    grid-row: 3;
-    width: 100vw;
-  }
-  .derechosreservadosfooter p {
-    width: 100vw;
-    font-size: 2rem;
-  }
-  .banner60añosfooterindex {
-    width: 100vw;
-    grid-column: 1/span 4;
-    grid-row: 5;
-  }
-  .banner60añosfooterindex img {
-    height: 100%;
-  }
-  .segalogofooterindex {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-  }
-  .segalogofooterindex img {
-    height: 20rem;
-    width: 30rem;
+  video {
+    height: 45rem;
   }
 }
 @media (min-width: 375px) {
@@ -917,45 +1184,6 @@ a {
     margin-top: 30px;
   }
 }
-
-
-
-
-
-
-/* ---SECCION PAGINA NOTICIAS--- */
-
-@media (min-width: 375px){
-
-.titulo-seccionoticas{
-    width: 100%;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
 @media (min-width: 1200px) {
   .seccion-banner {
     background-image: url(../imagenes/sonicsuperstars.jpg.webp);
@@ -1216,7 +1444,6 @@ a {
     margin-top: 30px;
   }
 }
-
 @media (min-width: 375px) {
   .segalogoheader {
     display: flex;
@@ -1609,6 +1836,7 @@ fieldset legend {
     background-color: rgb(190, 190, 193);
     color: whitesmoke;
     margin-top: 5rem;
+    padding: 2rem;
   }
   form video {
     width: 100%;
@@ -1780,9 +2008,10 @@ fieldset legend {
     height: 100%;
     padding: 0.2em;
     border: solid black 4px;
-    background-color: rgb(190, 190, 193);
+    background-color: rgb(53, 89, 130);
     color: whitesmoke;
     margin-top: 5rem;
+    padding: 4rem;
   }
   form video {
     width: 100%;
@@ -1798,7 +2027,7 @@ fieldset legend {
     border-bottom: solid 3px black;
     font-size: 1rem;
     margin-bottom: 2rem;
-    background-color: rgb(53, 89, 130);
+    background-color: rgb(220, 226, 232);
   }
   form label {
     display: flex;
@@ -1823,11 +2052,11 @@ fieldset legend {
     border-bottom: solid 3px black;
     font-size: 1rem;
     margin-bottom: 1.5rem;
-    background-color: rgb(53, 89, 130);
+    background-color: rgb(230, 235, 240);
   }
   form .enviar {
     width: 100%;
-    background-color: rgb(53, 89, 130);
+    background-color: rgb(137, 138, 139);
     font-size: 1rem;
     color: white;
   }
@@ -1860,8 +2089,8 @@ fieldset legend {
     width: 100%;
     height: 100%;
     text-align: center;
-    border-bottom: 3px solid black;
-    background-color: rgb(53, 89, 130);
+    border: 2px solid black;
+    background-color: rgb(233, 236, 240);
     margin-bottom: 1.5rem;
     padding: 5px;
   }
@@ -1872,6 +2101,7 @@ fieldset legend {
     width: 100%;
     height: 100%;
     font-size: 1.2rem;
+    color: black;
   }
   form .checkbox-contenedor label {
     font-size: 2rem;
@@ -1879,6 +2109,7 @@ fieldset legend {
     text-align: center;
     height: 100%;
     justify-content: center;
+    color: black;
   }
   form .checkbox-contenedor input {
     height: 1.5rem;
@@ -1955,9 +2186,10 @@ fieldset legend {
     height: 100%;
     padding: 0.2em;
     border: solid black 4px;
-    background-color: rgb(190, 190, 193);
+    background-color: rgb(5, 58, 98);
     color: whitesmoke;
     margin-top: 5rem;
+    padding: 10rem;
   }
   form video {
     width: 100%;
@@ -1973,7 +2205,7 @@ fieldset legend {
     border-bottom: solid 3px black;
     font-size: 1rem;
     margin-bottom: 2rem;
-    background-color: rgb(53, 89, 130);
+    background-color: rgb(220, 225, 232);
   }
   form label {
     display: flex;
@@ -1998,7 +2230,7 @@ fieldset legend {
     border-bottom: solid 3px black;
     font-size: 1rem;
     margin-bottom: 1.5rem;
-    background-color: rgb(53, 89, 130);
+    background-color: rgb(218, 225, 233);
   }
   form .enviar {
     width: 100%;
@@ -2036,7 +2268,7 @@ fieldset legend {
     height: 100%;
     text-align: center;
     border-bottom: 3px solid black;
-    background-color: rgb(53, 89, 130);
+    background-color: rgb(228, 230, 233);
     margin-bottom: 1.5rem;
     padding: 5px;
   }
@@ -2047,6 +2279,7 @@ fieldset legend {
     width: 100%;
     height: 100%;
     font-size: 1.5rem;
+    color: black;
   }
   form .checkbox-contenedor label {
     font-size: 3rem;
@@ -2054,6 +2287,8 @@ fieldset legend {
     text-align: center;
     height: 100%;
     justify-content: center;
+    font-size: 2rem;
+    color: black;
   }
   form .checkbox-contenedor input {
     height: 2.9rem;
@@ -2781,7 +3016,7 @@ fieldset legend {
   }
   footer .derechosreservadosfooter p {
     display: flex;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
   }
   footer .banner60anosfooterindex {
@@ -2790,7 +3025,7 @@ fieldset legend {
   }
   footer .banner60anosfooterindex img {
     width: 100%;
-    height: 12rem;
+    height: 20rem;
   }
 }
 @media (min-width: 1200px) {
@@ -2799,7 +3034,8 @@ fieldset legend {
     flex-direction: column;
     width: 100%;
     height: 5rem;
-    grid-template-columns: 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: repeat(5, 12rem);
   }
   footer .sega-logo-footer {
     grid-column: 2/4;
@@ -2817,8 +3053,9 @@ fieldset legend {
     grid-row: 4;
     grid-column: 1;
     width: 100%;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     background: linear-gradient(360deg, #4682B4, #B0C4DE);
+    border-radius: 10%;
   }
   footer .conecta-con-sega h2 {
     width: 100%;
@@ -2847,31 +3084,40 @@ fieldset legend {
   }
   footer .contenedor-links .links .links-redes-sociales img {
     display: inline;
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     padding: 0.5rem;
     border: 1px solid black;
-    border-radius: 100%;
+    border-radius: 30%;
+    background: gainsboro;
+  }
+  footer .contenedor-links .links .links-redes-sociales img:hover {
+    height: 4.5rem;
+    width: 4.5rem;
     background: linear-gradient(-135deg, #4682B4, #B0E0E6);
   }
   footer .derechosreservadosfooter {
     display: flex;
     justify-content: center;
     width: 100%;
+    grid-column: 1/5;
+    height: 100%;
   }
   footer .derechosreservadosfooter p {
+    height: 100%;
     display: flex;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     text-align: center;
   }
   footer .banner60anosfooterindex {
     width: 100%;
     height: 100%;
     grid-column: 1/5;
+    grid-row: 5;
   }
   footer .banner60anosfooterindex img {
     width: 100%;
-    height: 13rem;
+    height: 50rem;
   }
 }
 

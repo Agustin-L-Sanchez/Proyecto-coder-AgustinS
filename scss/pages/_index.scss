@@ -13,29 +13,95 @@
     }
   }
 
-  .seccion-logos-videojuegos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 5px;
-    gap: 2rem;
+  .contenedor-tarjetas-juegos {
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
 
 
-    h2 {
-      color: whitesmoke;
-      font-size: 1rem;
-      text-align: center;
+    .tarjeta-index {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      height: 10px;
+      width: 90px;
+      margin: 30px;
+      transition: 300ms;
+
     }
 
+    .tarjeta-index:hover .personajes {
+      background-color: #E0FFFF;
+      height: 20rem;
+    }
 
-    img {
+    .tarjeta-index:hover .imagen-personaje {
+      transform: translatey(-30px);
+      transition: 300ms;
+
+    }
+
+    .personajes {
+      height: 150px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10%;
+      background-color: #0f3859;
+      transition: 300ms;
+      position: absolute;
+      border: 1px whitesmoke solid;
+
+    }
+
+    .imagen-personaje {
+      display: flex;
+      justify-content: center;
+      height: 160px;
       width: 100%;
-      height: 15rem;
-      border: solid whitesmoke 1px;
-      border-radius: 0.3rem;
+      background-image: url();
+      background-size: cover;
+      margin-bottom: 50px;
+      transition: 300ms;
+      filter: drop-shadow(5px 5px 5px);
+
+
+
+      img {
+        height: 100%;
+        height: 100%;
+      }
+
     }
 
-  }
+    .logo-tarjeta {
+      height: 100px;
+      width: 150px;
+      position: absolute;
+      background-image: linear-gradient(#0c2338, rgb(41, 31, 87));
+      margin-top: 150px;
+      transition: 300ms;
+      border-radius: 10%;
+      filter: drop-shadow(3px 3px 3px);
 
+
+
+      img {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+
+
+      }
+    }
+  }
 
   .ultimasnoticiastituloindex {
     display: flex;
@@ -52,38 +118,40 @@
 
   .contenedorseccionultimasnoticias {
     display: flex;
-    gap: 5px;
-    padding: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
 
 
     .articulo-ultimas-noticias {
       width: 100%;
       border: solid whitesmoke 1px;
-      background-color: rgba(0, 0, 0, 0.49);
+      background-color: #0c2338;
 
 
       img {
         width: 100%;
-        height: 10rem;
+        height: 100%;
         border: solid whitesmoke 1px;
       }
 
 
       h3 {
         color: white;
-        font-size: 1rem;
+        font-size: 1.4rem;
         text-align: center;
 
       }
 
       p {
-        text-align: start;
+        font-size: 1.1rem;
+        text-align: center;
         color: whitesmoke;
       }
 
     }
   }
-
 
   .titulo-ultimos-lanzamientos {
     display: flex;
@@ -172,9 +240,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    
-
-
 
     h2 {
       display: flex;
@@ -187,25 +252,263 @@
 
     }
   }
-  
+
 }
 
 @media (min-width:768px) {
 
-  .seccion-logos-videojuegos {
+  .titulonuestrasfranquicias {
     display: flex;
-    width: 100%;
+    color: whitesmoke;
+    font-size: 0.7rem;
+    margin-top: 20px;
 
-    img {
-      height: 15rem;
-      margin-top: 2rem;
+    h1 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  .contenedor-tarjetas-juegos {
+    height: 100rem;
+    width: 100%;
+    display: flex;
+    gap: rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+
+
+
+    .tarjeta-index {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90px;
+      width: 300px;
+      margin: 10px;
+      transition: 300ms;
 
     }
+
+    .tarjeta-index:hover .personajes {
+      background-color: #E0FFFF;
+      height: 20rem;
+    }
+
+    .tarjeta-index:hover .imagen-personaje {
+      transform: translatey(-30px);
+      transition: 300ms;
+
+    }
+
+    .personajes {
+      height: 300px;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10%;
+      background-color: #0f3859;
+      transition: 300ms;
+      position: absolute;
+      border: 1px whitesmoke solid;
+
+    }
+
+    .imagen-personaje {
+      display: flex;
+      justify-content: center;
+      height: 200px;
+      width: 100%;
+      background-image: url();
+      background-size: cover;
+      margin-bottom: 200px;
+      transition: 300ms;
+      filter: drop-shadow(5px 5px 5px);
+
+
+      img {
+        height: 100%;
+        height: 100%;
+      }
+
+    }
+
+
+    .logo-tarjeta {
+      height: 180px;
+      width: 300px;
+      position: absolute;
+      background-image: linear-gradient(#0c2338, rgb(41, 31, 87));
+      margin-top: 150px;
+      transition: 300ms;
+      border-radius: 10%;
+      filter: drop-shadow(3px 3px 3px);
+
+
+
+      img {
+        width: 100%;
+        height: 100%;
+        padding: 3rem;
+
+      }
+    }
+  }
+
+  .ultimasnoticiastituloindex {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: whitesmoke;
 
     h2 {
-      font-size: 0.7rem;
+      font-size: 1.6rem;
     }
 
+  }
+
+
+  .contenedorseccionultimasnoticias {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70rem;
+    gap: 1rem;
+    padding: 1rem;
+
+
+    .articulo-ultimas-noticias {
+      height: 30rem;
+      width: 100%;
+      border: solid whitesmoke 1px;
+      background-color: #0c2338;
+
+
+      img {
+        width: 100%;
+        height: 20rem;
+        border: solid whitesmoke 1px;
+      }
+
+
+      h3 {
+        color: white;
+        font-size: 1.7rem;
+        text-align: center;
+
+      }
+
+      p {
+        font-size: 1.2rem;
+        text-align: center;
+        color: whitesmoke;
+      }
+
+    }
+  }
+
+  .titulo-ultimos-lanzamientos {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    color: whitesmoke;
+
+  }
+
+
+  .logo-sonic-frontiers {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+    img {
+
+      height: 10rem;
+      width: 20rem;
+      margin-top: 1rem;
+
+    }
+  }
+
+
+  .seccion-link-compra {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+    .compraya-sonicfrontiers {
+      display: flex;
+      justify-content: center;
+      width: 6rem;
+      height: 4rem;
+      border: solid white 3px;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .bannersonicfrontiers {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 5rem;
+    margin-top: 2rem;
+  }
+
+
+  .seccion-ulitmos-lanzamientos {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+
+    h2 {
+      font-size: 2rem;
+      color: aquamarine;
+      text-align: center;
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+    }
+
+
+    p {
+      font-size: 1.3rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: whitesmoke;
+    }
+
+
+    .articulo-ultimoslanzamientos {
+      border: solid whitesmoke 2px;
+      background-color: rgb(4, 2, 28)
+    }
+  }
+
+  video {
+    border-bottom: solid whitesmoke 2px;
+  }
+
+  .segainsidertitulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    h2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 3rem;
+      font-size: 100%;
+      width: 100%;
+      color: whitesmoke;
+      padding: 5px;
+
+    }
   }
 
   .logo-sonic-frontiers {
@@ -244,29 +547,109 @@
 
   }
 
-  .articuloseccionultimoslanzamientos {
+  .contenedor-tarjetas-juegos {
+    height: 80rem;
     width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+
+    .tarjeta-index {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 350px;
+      width: 300px;
+      margin: 30px;
+      transition: 300ms;
+
+    }
+
+    .tarjeta-index:hover .personajes {
+      background-color: #E0FFFF;
+      height: 20rem;
+    }
+
+    .tarjeta-index:hover .imagen-personaje {
+      transform: translatey(-30px);
+      transition: 300ms;
+
+    }
+
+    .personajes {
+      height: 350px;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10%;
+      background-color: #0f3859;
+      transition: 300ms;
+      position: absolute;
+      border: 1px whitesmoke solid;
+
+    }
+
+    .imagen-personaje {
+      display: flex;
+      justify-content: center;
+      height: 270px;
+      width: 100%;
+      background-image: url();
+      background-size: cover;
+      margin-bottom: 200px;
+      transition: 300ms;
+      filter: drop-shadow(5px 5px 5px);
+
+      img {
+        height: 100%;
+        height: 100%;
+      }
+
+    }
+
+
+    .logo-tarjeta {
+      height: 200px;
+      width: 300px;
+      position: absolute;
+      background-image: linear-gradient(#0c2338, rgb(41, 31, 87));
+      margin-top: 150px;
+      transition: 300ms;
+      border-radius: 10%;
+      filter: drop-shadow(3px 3px 3px);
+
+      img {
+        width: 100%;
+        height: 100%;
+        padding: 3rem;
+
+      }
+    }
   }
-
-  .seccion-logos-videojuegos img {
-    width: 100%;
-    height: 37.4rem;
-
-  }
-
-
 
   .contenedorseccionultimasnoticias {
-    height: 60rem;
+    height: 80rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
 
     .articulo-ultimas-noticias {
-      height: 40rem;
-      width: 100%;
+      display: flex;
+      height: 35rem;
+      width: 40rem;
+      align-items: center;
+
 
       .imagen-ultimas-noticias {
         width: 100%;
-        height: 25rem;
+        height: 100%;
       }
 
       h3 {
@@ -276,7 +659,6 @@
         height: 100%;
       }
 
-
       p {
         font-size: 1.5rem;
         text-align: center;
@@ -285,67 +667,9 @@
 
       }
     }
-
   }
 
-
-  .Footerseccionindex {
-    display: grid;
-    width: 100%;
-    height: 60rem;
-    grid-template-columns: 300px 300px 300px 300px 300px;
-    grid-template-rows: 200px 200px 200px 200px;
-
-    .footerlink {
-      grid-row: 2;
-      width: 100vw;
-
-
-      a img {
-        height: 3rem;
-        width: 4rem;
-        margin: 4rem;
-      }
-
-    }
-
+  video {
+    height: 45rem;
   }
-
-  .derechosreservadosfooter {
-    grid-column: 1 / span 4;
-    grid-row: 3;
-    width: 100vw;
-
-    p {
-      width: 100vw;
-      font-size: 2rem;
-    }
-
-
-  }
-
-  .banner60añosfooterindex {
-    width: 100vw;
-    grid-column: 1 / span 4;
-    grid-row: 5;
-
-
-    img {
-      height: 100%;
-    }
-
-  }
-
-  .segalogofooterindex {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-
-    img {
-      height: 20rem;
-      width: 30rem;
-    }
-
-  }
-
 }
