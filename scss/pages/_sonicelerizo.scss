@@ -1,6 +1,384 @@
+.seccion-banner {
+    background-image: url(../imagenes/sonicsuperstars.jpg.webp);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1rem;
+    border: 3px solid whitesmoke;
+    border-radius: 0.5rem;
+
+
+    .contenedor-logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+
+    .logo-sonic-banner {
+        width: 15rem;
+        height: 10rem;
+    }
+}
+
+.titulo-videojuego {
+    background-color: transparent;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+
+
+    h2 {
+        height: 50px;
+        font-size: 2rem;
+        margin-top: 50px;
+        margin-bottom: 1rem;
+
+    }
+}
+
+
+.contenedor-juegos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.tarjeta {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px 0px;
+    border-radius: 3%;
+    border: 1px solid gainsboro;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background: linear-gradient(-135deg, #4682B4, #F0F8FF);
+}
+
+
+
+.tarjeta-encabezado img {
+    
+    position: relative;
+    filter: drop-shadow(3px 3px 3px);
+    height: 190px;
+    width: 100%;
+    transition: all 0.3% ease;
+    padding: 1.5rem;
+    
+}
+
+.tarjeta-contenido img {
+    width: 100%;
+    height: 100%;
+    padding: 0rem;
+    margin: 0;
+    border-top: 1px solid #F0F8FF;
+
+
+}
+
+
+
+
+
+
+.titulo-juegos-disponibles {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+    h2 {
+        width: 100%;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        margin-bottom: rem;
+        text-align: center;
+
+    }
+
+}
+
+
+.seccion-sonic-frontiers {
+
+
+
+    .bannerseccionfrontiers {
+        width: 100%;
+    }
+
+
+    .logo-sonicfrontiers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10rem;
+
+        img {
+            height: 100%;
+            width: 20rem;
+            background-color: transparent;
+            margin-top: 50px;
+            border-top: solid whitesmoke 1px;
+
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            color: black;
+            background-color: white;
+            margin-left: 130px;
+            margin-right: 130px;
+            margin-top: 20px;
+        }
+    }
+
+
+    .compraahorasonicfrontiers {
+        border: solid aquamarine 1px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: whitesmoke;
+        height: 30px;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+
+    }
+
+
+    .titulo-noticias-recientes {
+        margin-top: 50px;
+        font-size: 25px;
+        color: whitesmoke;
+        text-align: center;
+
+
+    }
+
+
+    .seccion-noticias-frontiers {
+        display: flex;
+        height: 400px;
+        background-color: rgb(10, 10, 50);
+
+        .articulo-sonic-noticas {
+            display: grid;
+            background-color: rgba(0, 0, 0, 0.467);
+            width: 500px;
+            height: 100%;
+            justify-content: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            border: solid aquamarine 1px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: grid;
+                border-bottom: solid aquamarine 1px;
+
+            }
+
+            h3 {
+                font-size: 15px;
+                align-items: center;
+                display: grid;
+                color: whitesmoke;
+                text-align: center;
+
+            }
+
+
+            h4 {
+                font-size: 15px;
+                align-items: center;
+                display: grid;
+                color: whitesmoke;
+                text-align: center;
+
+            }
+
+            p {
+                font-size: 15px;
+                align-items: center;
+                display: grid;
+                color: whitesmoke;
+                text-align: center;
+
+            }
+
+
+        }
+
+    }
+
+
+    .titulo-introduccion-juego {
+        width: 100%;
+
+        h2 {
+            font-size: 50px;
+            margin-top: 50px;
+            color: aquamarine;
+            text-align: center;
+            width: 100%;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            text-align: center;
+            color: whitesmoke;
+            margin-top: 10px;
+            padding: 1rem;
+        }
+
+    }
+
+
+    .info-juego-seleccionado {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.467);
+
+        video {
+            width: 100%;
+            margin-top: 10px;
+            height: 100%;
+            border: solid aquamarine 1px;
+
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: aquamarine;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            text-align: center;
+            padding: 1px;
+            color: whitesmoke;
+        }
+
+    }
+
+    .bannerseccionfrontiers {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: solid aquamarine 1px;
+    }
+
+
+
+
+    .titulo-compra-ahora {
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: aquamarine;
+            margin-top: 50px;
+        }
+    }
+
+
+    .tiutlo-seleccion-plataforma {
+
+        h4 {
+            color: whitesmoke;
+            margin-top: 50px;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+
+
+    .seleccion-plataforma {
+        display: grid;
+        width: 100%;
+        justify-content: center;
+
+
+        .plataforma-disponible {
+            display: grid;
+            margin: 10px;
+            border: solid goldenrod 5px;
+            justify-content: center;
+            background-color: whitesmoke;
+            width: 150px;
+            height: 30px;
+            align-items: center;
+
+        }
+    }
+
+}
+
+
+.contenedor-ediciones-especiales {
+    width: 100%;
+    height: 20rem;
+    border: 3px solid aquamarine;
+
+    img {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+
+    }
+}
+
+
+.info-ediciones {
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    padding: 25px;
+    font-size: 1.2rem;
+    border: solid aquamarine 1px;
+    margin-top: 10px;
+    background-color: black;
+    width: 100%;
+
+
+    h3 {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+}
+
+.sonicteambanner {
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+
+}
+
+
+
+
 @media (min-width: 375px) {
-
-
 
     .seccion-banner {
         background-image: url(../imagenes/sonicsuperstars.jpg.webp);
@@ -29,13 +407,13 @@
     .titulo-videojuego {
         background-color: transparent;
         justify-content: center;
-        color: aquamarine;
+        color: rgb(255, 255, 255);
         display: flex;
 
 
         h2 {
             height: 50px;
-            font-size: 2.5rem;
+            font-size: 2rem;
             margin-top: 50px;
             margin-bottom: 1rem;
 
@@ -43,33 +421,51 @@
     }
 
 
-    .contenedor-seccion-juegos {
+    .contenedor-juegos {
         display: grid;
-        background-color: transparent;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 20% 20% 20% 20%;
-        padding: 1rem;
-        gap: 0.5rem;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 10px;
+        margin: auto;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 10rem;
+    }
 
+    .tarjeta {
+        height: 200px;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        padding: 10px 0px;
+        border-radius: 3%;
+        border: 1px solid gainsboro;
+        transition: all .4s ease-in-out;
+        box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        background: linear-gradient(-135deg, #4682B4, #F0F8FF);
+    }
+
+    
+
+    .tarjeta-encabezado img {
+        
+        position: relative;
+        filter: drop-shadow(3px 3px 3px);
+        height: 190px;
+        width: 100%;
+        transition: all 0.3% ease;
+        padding: 1.5rem;
+        
+    }
+
+    .tarjeta-contenido img {
+        width: 100%;
         height: 100%;
+        padding: 0rem;
+        margin: 0;
+        border-top: 1px solid #F0F8FF;
 
-        .juegos-sonic {
-
-            height: 90%;
-            width: 100%;
-            border-radius: 10px;
-        }
-
-
-
-
-        h2 {
-            font-size: 0.7rem;
-            text-align: center;
-            color: whitesmoke;
-            width: 100%;
-            height: 100%;
-        }
 
     }
 
@@ -87,7 +483,7 @@
         h2 {
             width: 100%;
             font-size: 3rem;
-            color: aquamarine;
+            color: rgb(255, 255, 255);
             margin-bottom: rem;
             text-align: center;
 
@@ -209,14 +605,6 @@
 
 
             }
-
-
-
-
-
-
-
-
 
         }
 
@@ -370,8 +758,6 @@
     }
 
 }
-
-
 
 @media (min-width: 768px) {
     .seccion-banner {
@@ -738,8 +1124,6 @@
 
     }
 }
-
-
 
 @media (min-width: 1200px) {
     .seccion-banner {

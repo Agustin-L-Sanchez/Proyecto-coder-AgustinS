@@ -30,11 +30,16 @@ a {
   text-decoration: none;
 }
 
+.link-1 {
+  text-decoration: none;
+  color: black;
+}
+
 @media (min-width: 375px) {
   header {
     background-color: rgb(2, 2, 40);
     width: 100%;
-    height: 17rem;
+    height: 14rem;
   }
   header .logosegaseccionheader {
     width: 100%;
@@ -124,13 +129,216 @@ a {
     width: 100%;
     color: black;
     background-color: whitesmoke;
-    font-size: 1.75rem;
+    font-size: 1.4rem;
   }
   header a:hover {
     background-color: rgb(56, 74, 109);
     color: whitesmoke;
   }
 }
+.titulonuestrasfranquicias {
+  display: flex;
+  color: whitesmoke;
+  font-size: 0.7rem;
+  margin-top: 20px;
+}
+.titulonuestrasfranquicias h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contenedor-tarjetas-juegos {
+  height: 60rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.contenedor-tarjetas-juegos .tarjeta-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 10px;
+  width: 90px;
+  margin: 30px;
+  transition: 300ms;
+}
+.contenedor-tarjetas-juegos .tarjeta-index:hover .personajes {
+  background-color: #E0FFFF;
+  height: 20rem;
+}
+.contenedor-tarjetas-juegos .tarjeta-index:hover .imagen-personaje {
+  transform: translatey(-30px);
+  transition: 300ms;
+}
+.contenedor-tarjetas-juegos .personajes {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  background-color: #0f3859;
+  transition: 300ms;
+  position: absolute;
+  border: 1px whitesmoke solid;
+}
+.contenedor-tarjetas-juegos .imagen-personaje {
+  display: flex;
+  justify-content: center;
+  height: 160px;
+  width: 100%;
+  background-image: url();
+  background-size: cover;
+  margin-bottom: 50px;
+  transition: 300ms;
+  filter: drop-shadow(5px 5px 5px);
+}
+.contenedor-tarjetas-juegos .imagen-personaje img {
+  height: 100%;
+  height: 100%;
+}
+.contenedor-tarjetas-juegos .logo-tarjeta {
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  background-image: linear-gradient(#0c2338, rgb(41, 31, 87));
+  margin-top: 150px;
+  transition: 300ms;
+  border-radius: 10%;
+  filter: drop-shadow(3px 3px 3px);
+}
+.contenedor-tarjetas-juegos .logo-tarjeta img {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.ultimasnoticiastituloindex {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: whitesmoke;
+}
+.ultimasnoticiastituloindex h2 {
+  font-size: 1.6rem;
+}
+
+.contenedorseccionultimasnoticias {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+.contenedorseccionultimasnoticias .articulo-ultimas-noticias {
+  width: 100%;
+  border: solid whitesmoke 1px;
+  background-color: #0c2338;
+}
+.contenedorseccionultimasnoticias .articulo-ultimas-noticias img {
+  width: 100%;
+  height: 100%;
+  border: solid whitesmoke 1px;
+}
+.contenedorseccionultimasnoticias .articulo-ultimas-noticias h3 {
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.contenedorseccionultimasnoticias .articulo-ultimas-noticias p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.titulo-ultimos-lanzamientos {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+
+.logo-sonic-frontiers {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.logo-sonic-frontiers img {
+  height: 10rem;
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.seccion-link-compra {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.seccion-link-compra .compraya-sonicfrontiers {
+  display: flex;
+  justify-content: center;
+  width: 6rem;
+  height: 4rem;
+  border: solid white 3px;
+  margin-bottom: 2rem;
+}
+
+.bannersonicfrontiers {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+.seccion-ulitmos-lanzamientos {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.seccion-ulitmos-lanzamientos h2 {
+  font-size: 2rem;
+  color: aquamarine;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.seccion-ulitmos-lanzamientos p {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+}
+.seccion-ulitmos-lanzamientos .articulo-ultimoslanzamientos {
+  border: solid whitesmoke 2px;
+  background-color: rgb(4, 2, 28);
+}
+
+video {
+  border-bottom: solid whitesmoke 2px;
+}
+
+.segainsidertitulo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.segainsidertitulo h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 100%;
+  width: 100%;
+  color: whitesmoke;
+  padding: 5px;
+}
+
 @media (min-width: 375px) {
   .titulonuestrasfranquicias {
     display: flex;
@@ -648,6 +856,288 @@ a {
     height: 45rem;
   }
 }
+.seccion-banner {
+  background-image: url(../imagenes/sonicsuperstars.jpg.webp);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 1rem;
+  border: 3px solid whitesmoke;
+  border-radius: 0.5rem;
+}
+.seccion-banner .contenedor-logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.seccion-banner .logo-sonic-banner {
+  width: 15rem;
+  height: 10rem;
+}
+
+.titulo-videojuego {
+  background-color: transparent;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.titulo-videojuego h2 {
+  height: 50px;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 1rem;
+}
+
+.contenedor-juegos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 10px;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.tarjeta {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  padding: 10px 0px;
+  border-radius: 3%;
+  border: 1px solid gainsboro;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  background: linear-gradient(-135deg, #4682B4, #F0F8FF);
+}
+
+.tarjeta-encabezado img {
+  position: relative;
+  filter: drop-shadow(3px 3px 3px);
+  height: 190px;
+  width: 100%;
+  transition: all 0.3% ease;
+  padding: 1.5rem;
+}
+
+.tarjeta-contenido img {
+  width: 100%;
+  height: 100%;
+  padding: 0rem;
+  margin: 0;
+  border-top: 1px solid #F0F8FF;
+}
+
+.titulo-juegos-disponibles {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.titulo-juegos-disponibles h2 {
+  width: 100%;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: rem;
+  text-align: center;
+}
+
+.seccion-sonic-frontiers .bannerseccionfrontiers {
+  width: 100%;
+}
+.seccion-sonic-frontiers .logo-sonicfrontiers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+}
+.seccion-sonic-frontiers .logo-sonicfrontiers img {
+  height: 100%;
+  width: 20rem;
+  background-color: transparent;
+  margin-top: 50px;
+  border-top: solid whitesmoke 1px;
+}
+.seccion-sonic-frontiers .logo-sonicfrontiers a {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: white;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 20px;
+}
+.seccion-sonic-frontiers .compraahorasonicfrontiers {
+  border: solid aquamarine 1px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  height: 30px;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+.seccion-sonic-frontiers .titulo-noticias-recientes {
+  margin-top: 50px;
+  font-size: 25px;
+  color: whitesmoke;
+  text-align: center;
+}
+.seccion-sonic-frontiers .seccion-noticias-frontiers {
+  display: flex;
+  height: 400px;
+  background-color: rgb(10, 10, 50);
+}
+.seccion-sonic-frontiers .seccion-noticias-frontiers .articulo-sonic-noticas {
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.467);
+  width: 500px;
+  height: 100%;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: solid aquamarine 1px;
+}
+.seccion-sonic-frontiers .seccion-noticias-frontiers .articulo-sonic-noticas img {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  border-bottom: solid aquamarine 1px;
+}
+.seccion-sonic-frontiers .seccion-noticias-frontiers .articulo-sonic-noticas h3 {
+  font-size: 15px;
+  align-items: center;
+  display: grid;
+  color: whitesmoke;
+  text-align: center;
+}
+.seccion-sonic-frontiers .seccion-noticias-frontiers .articulo-sonic-noticas h4 {
+  font-size: 15px;
+  align-items: center;
+  display: grid;
+  color: whitesmoke;
+  text-align: center;
+}
+.seccion-sonic-frontiers .seccion-noticias-frontiers .articulo-sonic-noticas p {
+  font-size: 15px;
+  align-items: center;
+  display: grid;
+  color: whitesmoke;
+  text-align: center;
+}
+.seccion-sonic-frontiers .titulo-introduccion-juego {
+  width: 100%;
+}
+.seccion-sonic-frontiers .titulo-introduccion-juego h2 {
+  font-size: 50px;
+  margin-top: 50px;
+  color: aquamarine;
+  text-align: center;
+  width: 100%;
+}
+.seccion-sonic-frontiers .titulo-introduccion-juego h3 {
+  font-size: 1.1rem;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 10px;
+  padding: 1rem;
+}
+.seccion-sonic-frontiers .info-juego-seleccionado {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.467);
+}
+.seccion-sonic-frontiers .info-juego-seleccionado video {
+  width: 100%;
+  margin-top: 10px;
+  height: 100%;
+  border: solid aquamarine 1px;
+}
+.seccion-sonic-frontiers .info-juego-seleccionado h3 {
+  font-size: 1.5rem;
+  color: aquamarine;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.seccion-sonic-frontiers .info-juego-seleccionado p {
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 1px;
+  color: whitesmoke;
+}
+.seccion-sonic-frontiers .bannerseccionfrontiers {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid aquamarine 1px;
+}
+.seccion-sonic-frontiers .titulo-compra-ahora h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: aquamarine;
+  margin-top: 50px;
+}
+.seccion-sonic-frontiers .tiutlo-seleccion-plataforma h4 {
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.seccion-sonic-frontiers .seleccion-plataforma {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+.seccion-sonic-frontiers .seleccion-plataforma .plataforma-disponible {
+  display: grid;
+  margin: 10px;
+  border: solid goldenrod 5px;
+  justify-content: center;
+  background-color: whitesmoke;
+  width: 150px;
+  height: 30px;
+  align-items: center;
+}
+
+.contenedor-ediciones-especiales {
+  width: 100%;
+  height: 20rem;
+  border: 3px solid aquamarine;
+}
+.contenedor-ediciones-especiales img {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.info-ediciones {
+  display: flex;
+  color: whitesmoke;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  padding: 25px;
+  font-size: 1.2rem;
+  border: solid aquamarine 1px;
+  margin-top: 10px;
+  background-color: black;
+  width: 100%;
+}
+.info-ediciones h3 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.sonicteambanner {
+  width: 100%;
+  height: 70px;
+  margin-top: 30px;
+}
+
 @media (min-width: 375px) {
   .seccion-banner {
     background-image: url(../imagenes/sonicsuperstars.jpg.webp);
@@ -670,35 +1160,52 @@ a {
   .titulo-videojuego {
     background-color: transparent;
     justify-content: center;
-    color: aquamarine;
+    color: rgb(255, 255, 255);
     display: flex;
   }
   .titulo-videojuego h2 {
     height: 50px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 50px;
     margin-bottom: 1rem;
   }
-  .contenedor-seccion-juegos {
+  .contenedor-juegos {
     display: grid;
-    background-color: transparent;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 20% 20% 20% 20%;
-    padding: 1rem;
-    gap: 0.5rem;
-    height: 100%;
-  }
-  .contenedor-seccion-juegos .juegos-sonic {
-    height: 90%;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
-    border-radius: 10px;
+    gap: 10px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10rem;
   }
-  .contenedor-seccion-juegos h2 {
-    font-size: 0.7rem;
+  .tarjeta {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px 0px;
+    border-radius: 3%;
+    border: 1px solid gainsboro;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
     text-align: center;
-    color: whitesmoke;
+    background: linear-gradient(-135deg, #4682B4, #F0F8FF);
+  }
+  .tarjeta-encabezado img {
+    position: relative;
+    filter: drop-shadow(3px 3px 3px);
+    height: 190px;
+    width: 100%;
+    transition: all 0.3% ease;
+    padding: 1.5rem;
+  }
+  .tarjeta-contenido img {
     width: 100%;
     height: 100%;
+    padding: 0rem;
+    margin: 0;
+    border-top: 1px solid #F0F8FF;
   }
   .titulo-juegos-disponibles {
     display: flex;
@@ -708,7 +1215,7 @@ a {
   .titulo-juegos-disponibles h2 {
     width: 100%;
     font-size: 3rem;
-    color: aquamarine;
+    color: rgb(255, 255, 255);
     margin-bottom: rem;
     text-align: center;
   }
@@ -1445,6 +1952,33 @@ a {
   }
 }
 @media (min-width: 375px) {
+  .slider-frame-noticias {
+    width: 100%;
+    height: 100%;
+    margin: 0% auto 0;
+    overflow: hidden;
+    border: transparent;
+  }
+  .slider-frame-noticias ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+  }
+  .slider-frame-noticias li {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+  }
+  .slider-frame-noticias img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px ghostwhite;
+  }
+  img {
+    width: 50%;
+  }
   .video-noticias {
     width: 0%;
     height: 0%;
@@ -1452,80 +1986,296 @@ a {
   .titulo-seccionoticas {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    flex-wrap: wrap;
+    margin-top: 8rem;
   }
   .titulo-seccionoticas h1 {
     color: whitesmoke;
   }
-  .seccion-noticas-contenedorpadre {
+  .section-padre-tarjeta {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 90rem;
+    justify-content: start;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    padding: 1%;
   }
-  .seccion-noticas-contenedorpadre .contenedorimagenesnoticias {
-    border: solid 2px whitesmoke;
-    margin-top: 1rem;
+  .section-padre-tarjeta .tarjeta-noticia {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30rem;
   }
-  .seccion-noticas-contenedorpadre .contenedorimagenesnoticias img {
+  .section-padre-tarjeta .tarjeta-noticia .contenedorimagenesnoticias {
+    display: flex;
+    height: 50rem;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .contenedorimagenesnoticias img {
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .titutlo-noticia {
+    width: 100%;
+    height: 6rem;
+    font-size: 1rem;
+    background: linear-gradient(#FFFAFA, #DCDCDC);
+    text-align: center;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+    color: black;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .texto-noticia {
+    height: 100%;
+    width: 100%;
+    font-size: x-large;
+    text-align: start;
+    color: transparent;
+    transition: 400ms;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .texto-noticia p {
     width: 100%;
     height: 100%;
   }
-  .seccion-noticas-contenedorpadre .articulos-seccionoticias {
-    display: flex;
-    justify-content: center;
-    border: solid 2px whitesmoke;
-    background-color: rgb(2, 2, 54);
-  }
-  .seccion-noticas-contenedorpadre .articulos-seccionoticias h2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.7rem;
-    color: whitesmoke;
+  .section-padre-tarjeta:hover {
+    height: 140rem;
     width: 100%;
   }
-  .seccion-noticas-contenedorpadre .articulos-seccionoticias p {
-    display: flex;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 1rem;
+  .tarjeta-noticia:hover img {
+    transform: translateY(-1px);
+    padding: 0.1rem;
+    background-color: #fbfcff;
+  }
+  .tarjeta-noticia:hover {
+    margin-bottom: 50rem;
+    width: 100%;
+  }
+  .tarjeta-noticia:hover p {
+    margin-bottom: 20rem;
+    transition: 400ms;
+    transform: translateY(0rem);
+    background: linear-gradient(#44698a, #05051e);
+    border: 2px solid #FFFAFA;
+    color: #FFFAFA;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    width: 100%;
+    height: 40rem;
   }
 }
 @media (min-width: 768px) {
+  .slider-frame-noticias {
+    width: 100%;
+    height: 100%;
+    margin: 0% auto 0;
+    overflow: hidden;
+    border: transparent;
+    margin-top: 5rem;
+  }
+  .slider-frame-noticias ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+  }
+  .slider-frame-noticias li {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+  }
+  .slider-frame-noticias img {
+    width: 90%;
+    height: 80%;
+    border: solid 5px ghostwhite;
+  }
   .video-noticias {
     width: 100%;
     height: 100%;
+  }
+  .section-padre-tarjeta {
+    display: grid;
+    gap: 10rem;
+    width: 100%;
+    height: 130rem;
+    justify-content: start;
+    margin-top: 8rem;
+  }
+  .section-padre-tarjeta .tarjeta-noticia {
+    display: flex;
+    width: 100%;
+    height: 30rem;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .contenedorimagenesnoticias {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .contenedorimagenesnoticias img {
+    width: 100%;
+    height: 30rem;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .titutlo-noticia {
+    width: 100%;
+    height: 10rem;
+    font-size: 2rem;
+    background: linear-gradient(#FFFAFA, #DCDCDC);
+    text-align: center;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+    color: black;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .texto-noticia {
+    height: 100rem;
+    width: 100%;
+    font-size: 242%;
+    text-align: start;
+    color: transparent;
+    transition: 400ms;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .texto-noticia p {
+    width: 100%;
+    height: 40rem;
+  }
+  .section-padre-tarjeta:hover {
+    height: 180rem;
+    width: 100%;
+  }
+  .tarjeta-noticia:hover img {
+    transform: translateY(-1px);
+    padding: 0.1rem;
+    background-color: #fbfcff;
+  }
+  .tarjeta-noticia:hover {
+    margin-bottom: 50rem;
+    width: 100%;
+  }
+  .tarjeta-noticia:hover p {
+    margin-bottom: 20rem;
+    transition: 400ms;
+    transform: translateY(0rem);
+    background: linear-gradient(#44698a, #05051e);
+    border: 2px solid #FFFAFA;
+    color: #FFFAFA;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    width: 100%;
+    height: 20rem;
   }
 }
 @media (min-width: 1200px) {
-  .video-noticias {
+  .slider-frame-noticias {
+    width: 100%;
+    height: 100%;
+    margin: 0% auto 0;
+    overflow: hidden;
+    border: transparent;
+    margin-top: 10rem;
+  }
+  .slider-frame-noticias ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+  }
+  .slider-frame-noticias li {
     display: flex;
     justify-content: center;
+    list-style-type: none;
+    width: 100%;
+  }
+  .slider-frame-noticias img {
+    width: 100%;
+    height: 80%;
+    border: solid 5px ghostwhite;
+  }
+  .titulo-seccionoticas {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .titulo-seccionoticas h1 {
+    font-size: 3rem;
+  }
+  .section-padre-tarjeta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 1%;
+    align-items: center;
+  }
+  .section-padre-tarjeta .tarjeta-noticia {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 30rem;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .contenedorimagenesnoticias {
+    display: flex;
+    height: 50rem;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .contenedorimagenesnoticias img {
+    width: 100%;
+    height: 25rem;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .titutlo-noticia {
+    width: 100%;
+    height: 11rem;
+    font-size: 1rem;
+    background: linear-gradient(#FFFAFA, #DCDCDC);
+    text-align: center;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+    color: black;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .texto-noticia {
+    height: 100%;
+    width: 100%;
+    font-size: x-large;
+    text-align: start;
+    color: transparent;
+    transition: 400ms;
+  }
+  .section-padre-tarjeta .tarjeta-noticia .texto-noticia p {
+    width: 100%;
+    height: 100%;
+  }
+  .section-padre-tarjeta:hover {
+    height: 160rem;
+    width: 100%;
+  }
+  .tarjeta-noticia:hover img {
+    transform: translateY(-1px);
+    padding: 0.1rem;
+    background-color: #fbfcff;
+  }
+  .tarjeta-noticia:hover {
+    margin-bottom: 50rem;
+    width: 40%;
+  }
+  .tarjeta-noticia:hover p {
+    margin-bottom: 20rem;
+    transition: 400ms;
+    transform: translateY(0rem);
+    background: linear-gradient(#44698a, #05051e);
+    border: 2px solid #FFFAFA;
+    color: #FFFAFA;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
     width: 100%;
     height: 40rem;
-    margin-bottom: 10rem;
-  }
-  .contenedorimagenesnoticias {
-    height: 100%;
-    width: 100%;
-  }
-  .contenedorimagenesnoticias .imagenesdenoticias {
-    height: 100%;
-    width: 100%;
-  }
-  .seccion-noticas-contenedorpadre {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
-    margin-bottom: 10rem;
-  }
-  .seccion-noticas-contenedorpadre .articulos-seccionoticias {
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    margin-top: 1rem;
-  }
-  .seccion-noticas-contenedorpadre .articulos-seccionoticias p {
-    font-size: 1.1rem;
   }
 }
 .titulobienvenidoinsiderintroduccion {
@@ -2051,7 +2801,8 @@ fieldset legend {
 @media (min-width: 1020px) {
   .banner-seccion-index {
     width: 100%;
-    height: 30rem;
+    height: 50rem;
+    padding: 5rem;
   }
   .titulobienvenidoinsiderintroduccion {
     display: flex;
@@ -2264,6 +3015,7 @@ fieldset legend {
   height: 100%;
   width: 100%;
   filter: drop-shadow(3px 5px 5px);
+  padding: 2rem;
 }
 
 .contenedortarjetasmercha {
@@ -2376,7 +3128,7 @@ fieldset legend {
   .seccionmercanciafavorita {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 130px 130px 130px;
     gap: 1rem;
   }
   .seccionmercanciafavorita img {
@@ -2385,6 +3137,7 @@ fieldset legend {
     height: 100%;
     width: 100%;
     filter: drop-shadow(3px 5px 5px);
+    padding: 1rem;
   }
   .contenedortarjetasmercha {
     width: 100%;
@@ -2509,8 +3262,10 @@ fieldset legend {
   .seccionmercanciafavorita {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
-    gap: 1rem;
+    grid-template-rows: 200px 200px 200px;
+    gap: 2rem;
+    align-content: center;
+    justify-content: center;
   }
   .seccionmercanciafavorita img {
     border: solid 2px whitesmoke;
@@ -2518,6 +3273,7 @@ fieldset legend {
     height: 100%;
     width: 100%;
     filter: drop-shadow(3px 5px 5px);
+    padding: 1.5rem;
   }
   .contenedortarjetasmercha {
     width: 100%;

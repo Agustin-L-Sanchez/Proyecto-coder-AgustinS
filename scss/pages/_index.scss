@@ -1,3 +1,257 @@
+.titulonuestrasfranquicias {
+  display: flex;
+  color: whitesmoke;
+  font-size: 0.7rem;
+  margin-top: 20px;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.contenedor-tarjetas-juegos {
+  height: 60rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+
+
+  .tarjeta-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 10px;
+    width: 90px;
+    margin: 30px;
+    transition: 300ms;
+
+  }
+
+  .tarjeta-index:hover .personajes {
+    background-color: #E0FFFF;
+    height: 20rem;
+  }
+
+  .tarjeta-index:hover .imagen-personaje {
+    transform: translatey(-30px);
+    transition: 300ms;
+
+  }
+
+  .personajes {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: #0f3859;
+    transition: 300ms;
+    position: absolute;
+    border: 1px whitesmoke solid;
+
+  }
+
+  .imagen-personaje {
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    width: 100%;
+    background-image: url();
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: 300ms;
+    filter: drop-shadow(5px 5px 5px);
+
+
+
+    img {
+      height: 100%;
+      height: 100%;
+    }
+
+  }
+
+  .logo-tarjeta {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    background-image: linear-gradient(#0c2338, rgb(41, 31, 87));
+    margin-top: 150px;
+    transition: 300ms;
+    border-radius: 10%;
+    filter: drop-shadow(3px 3px 3px);
+
+
+
+    img {
+      width: 100%;
+      height: 100%;
+      padding: 1rem;
+
+
+    }
+  }
+}
+
+.ultimasnoticiastituloindex {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: whitesmoke;
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+}
+
+
+.contenedorseccionultimasnoticias {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+
+
+  .articulo-ultimas-noticias {
+    width: 100%;
+    border: solid whitesmoke 1px;
+    background-color: #0c2338;
+
+
+    img {
+      width: 100%;
+      height: 100%;
+      border: solid whitesmoke 1px;
+    }
+
+
+    h3 {
+      color: white;
+      font-size: 1.4rem;
+      text-align: center;
+
+    }
+
+    p {
+      font-size: 1.1rem;
+      text-align: center;
+      color: whitesmoke;
+    }
+
+  }
+}
+
+.titulo-ultimos-lanzamientos {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  color: whitesmoke;
+
+}
+
+
+.logo-sonic-frontiers {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+
+  img {
+
+    height: 10rem;
+    width: 20rem;
+    margin-top: 1rem;
+
+  }
+}
+
+
+.seccion-link-compra {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+
+  .compraya-sonicfrontiers {
+    display: flex;
+    justify-content: center;
+    width: 6rem;
+    height: 4rem;
+    border: solid white 3px;
+    margin-bottom: 2rem;
+  }
+}
+
+.bannersonicfrontiers {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+
+.seccion-ulitmos-lanzamientos {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+
+  h2 {
+    font-size: 2rem;
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+
+  p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+  }
+
+
+  .articulo-ultimoslanzamientos {
+    border: solid whitesmoke 2px;
+    background-color: rgb(4, 2, 28)
+  }
+}
+
+video {
+  border-bottom: solid whitesmoke 2px;
+}
+
+.segainsidertitulo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 100%;
+    width: 100%;
+    color: whitesmoke;
+    padding: 5px;
+
+  }
+}
+
+
 @media (min-width: 375px) {
 
   .titulonuestrasfranquicias {
