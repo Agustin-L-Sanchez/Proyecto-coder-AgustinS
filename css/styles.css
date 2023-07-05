@@ -352,7 +352,7 @@ video {
     width: 100%;
   }
   .contenedor-tarjetas-juegos {
-    height: 60rem;
+    height: 80rem;
     width: 100%;
     display: flex;
     gap: 1rem;
@@ -376,7 +376,7 @@ video {
     height: 20rem;
   }
   .contenedor-tarjetas-juegos .tarjeta-index:hover .imagen-personaje {
-    transform: translatey(-30px);
+    transform: translatey(-20px);
     transition: 300ms;
   }
   .contenedor-tarjetas-juegos .personajes {
@@ -854,6 +854,11 @@ video {
   }
   video {
     height: 45rem;
+  }
+  .bannersonicfrontiers {
+    width: 100%;
+    height: 100%;
+    padding: rem;
   }
 }
 .seccion-banner {
