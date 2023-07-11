@@ -629,15 +629,17 @@ video {
   .contenedorseccionultimasnoticias {
     display: flex;
     flex-direction: column;
+    align-content: center;
     width: 100%;
-    height: 70rem;
+    height: 80rem;
     gap: 1rem;
     padding: 1rem;
+   
 
 
     .articulo-ultimas-noticias {
-      height: 30rem;
-      width: 100%;
+      height: 35rem;
+      width: 30rem;
       border: solid whitesmoke 1px;
       background-color: #0c2338;
 
@@ -657,7 +659,7 @@ video {
       }
 
       p {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         text-align: center;
         color: whitesmoke;
       }
